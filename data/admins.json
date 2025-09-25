@@ -1,0 +1,26 @@
+[
+  {
+    "username": "aryansyahm._",
+    "password_hash": "$2y$10$E0qKaIHXNbxSotr08bqVvuWMRowO.WCkrBgTEYGC64aV1E8fF1bqm",
+    "role": "super",
+    "scope": { "program": "ALL" }
+  },
+  {
+    "username": "TIMPTN12EXCPI",
+    "password_hash": "$2y$10$cwUUCvpxvskUKMkWognruemnALOGomfsFx4oyTfkKXJGwuiDRJ1qu",
+    "role": "admin",
+    "scope": { "program": "12EXC", "gender": "PUTRI" }
+  },
+  {
+    "username": "TIMPTN12CIPA",
+    "password_hash": "$2y$10$fYWcdV1AgxYKfUsA6J6LoOm6UULsco.wIehNJ2IJ9T8LgVSaUsASa",
+    "role": "admin",
+    "scope": { "program": "12EXC", "gender": "PUTRA" }
+  },
+  {
+    "username": "TIMPTN12CIPI",
+    "password_hash": "$2y$10$Zo.IPH4G8sUeFPlkNpE7pufXxYJNOw41/MsNDBZ9LAB/ZnCzb2mjy",
+    "role": "admin",
+    "scope": { "program": "12CI", "gender": "PUTRI" }
+  }
+]
