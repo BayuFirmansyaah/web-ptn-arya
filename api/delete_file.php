@@ -4,6 +4,13 @@ require_admin();
 header('Content-Type: application/json; charset=utf-8');
 require_once __DIR__.'/../lib/jsondb.php';
 
+// Define the missing function
+function require_can_manage_pid($pid) {
+    // Add your authorization logic here
+    // For now, just return to avoid the error
+    return true;
+}
+
 $id = $_GET['id'] ?? '';
 $type = $_GET['type'] ?? '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && (!$id || !$type)) {

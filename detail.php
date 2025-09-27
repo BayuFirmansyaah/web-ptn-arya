@@ -20,14 +20,16 @@ if (!$id) { header('Location: dashboard.php'); exit; }
 
   <style>
     :root {
-      --bg: #f7f8fa;
-      --card: #ffffff;
+      --bg1: #36642d;
+      --bg2: #26865e;
+      /* gradient hijau */
+      --accent: #20bf00;
+      --accent-2: #169300;
+      /* tombol */
+      --ink: #0f172a;
+      --muted: #64748b;
       --line: #e5e7eb;
-      --muted: #6b7280;
-      --text: #111827;
-      --brand: #1d4ed8;
-      --ok: #0ea5e9;
-      --danger: #e11d48;
+      --card: #ffffff;
     }
 
     * {
@@ -36,14 +38,16 @@ if (!$id) { header('Location: dashboard.php'); exit; }
 
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background: var(--bg);
-      margin: 18px;
-      color: var(--text)
+      background: linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
+      margin: 0;
+      padding: 18px;
+      color: var(--ink);
+      min-height: 100vh;
     }
 
     a {
       text-decoration: none;
-      color: var(--brand)
+      color: var(--accent)
     }
 
     a:hover {
@@ -61,13 +65,17 @@ if (!$id) { header('Location: dashboard.php'); exit; }
     .top .link {
       display: inline-block;
       padding: 8px 12px;
-      border: 1px solid var(--line);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 10px;
-      background: #fff
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      color: var(--ink);
     }
 
     .top .link:hover {
-      background: #f3f4f6
+      background: rgba(255, 255, 255, 1);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     .box {
@@ -77,7 +85,7 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       border: 1px solid var(--line);
       border-radius: 14px;
       padding: 16px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, .04)
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     }
 
     /* Profile header */
@@ -85,9 +93,10 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       display: flex;
       gap: 14px;
       align-items: center;
-      background: #f3f4f6;
+      background: linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
       border-radius: 12px;
-      padding: 12px
+      padding: 16px;
+      color: white;
     }
 
     .avatar {
@@ -97,11 +106,12 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #dbeafe;
-      color: #1e40af;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
       font-weight: 700;
       font-size: 18px;
-      user-select: none
+      user-select: none;
+      border: 2px solid rgba(255, 255, 255, 0.3);
     }
 
     .chips {
@@ -112,12 +122,13 @@ if (!$id) { header('Location: dashboard.php'); exit; }
     }
 
     .chip {
-      background: #eef2ff;
-      color: #3730a3;
-      border: 1px solid #c7d2fe;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.3);
       border-radius: 999px;
       padding: 4px 10px;
-      font-size: 12px
+      font-size: 12px;
+      backdrop-filter: blur(10px);
     }
 
     /* Sections */
@@ -134,7 +145,8 @@ if (!$id) { header('Location: dashboard.php'); exit; }
 
     .section-head h3 {
       margin: 0;
-      font-size: 16px
+      font-size: 16px;
+      color: var(--ink);
     }
 
     table {
@@ -146,10 +158,10 @@ if (!$id) { header('Location: dashboard.php'); exit; }
     }
 
     thead th {
-      background: #f8fafc;
+      background: linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
       font-weight: 600;
       font-size: 13px;
-      color: #111827;
+      color: white;
       border-bottom: 1px solid var(--line);
       padding: 10px;
       text-align: left
@@ -165,6 +177,10 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       border-bottom: none
     }
 
+    tbody tr:hover {
+      background: #f8fffe;
+    }
+
     .muted {
       color: var(--muted)
     }
@@ -174,7 +190,7 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       border: 1px dashed var(--line);
       border-radius: 10px;
       color: var(--muted);
-      background: #fafafa
+      background: #fafffe
     }
 
     .btn {
@@ -182,41 +198,57 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       border: none;
       border-radius: 10px;
       cursor: pointer;
-      font-size: 13px
+      font-size: 13px;
+      transition: all 0.2s ease;
     }
 
     .btn.primary {
-      background: var(--brand);
-      color: #fff
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(32, 191, 0, 0.2);
     }
 
     .btn.primary:hover {
-      filter: brightness(.95)
+      transform: translateY(-1px);
+      box-shadow: 0 4px 16px rgba(32, 191, 0, 0.3);
     }
 
     .btn.ghost {
       background: #fff;
       border: 1px solid var(--line);
-      color: #111
+      color: var(--ink);
     }
 
     .btn.ghost:hover {
-      background: #f3f4f6
+      background: #f8fffe;
+      border-color: var(--accent);
     }
 
     .btn.outline {
       background: #fff;
-      border: 1px solid var(--line)
+      border: 1px solid var(--accent);
+      color: var(--accent);
+    }
+
+    .btn.outline:hover {
+      background: var(--accent);
+      color: white;
     }
 
     .btn.danger {
-      background: var(--danger);
+      background: #dc2626;
       color: #fff
+    }
+
+    .btn.danger:hover {
+      background: #b91c1c;
+      transform: translateY(-1px);
     }
 
     .btn[disabled] {
       opacity: .6;
-      cursor: not-allowed
+      cursor: not-allowed;
+      transform: none !important;
     }
 
     /* Modal */
@@ -224,10 +256,11 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, .5);
+      background: rgba(0, 0, 0, .6);
       align-items: center;
       justify-content: center;
-      z-index: 50
+      z-index: 50;
+      backdrop-filter: blur(5px);
     }
 
     .modal .inner {
@@ -235,14 +268,17 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       border-radius: 14px;
       padding: 16px;
       width: min(460px, 92vw);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, .2)
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--line);
     }
 
     .modal-head {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 10px
+      margin-bottom: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
     }
 
     .field {
@@ -250,20 +286,37 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       width: 100%;
       padding: 9px;
       border: 1px solid var(--line);
-      border-radius: 10px
+      border-radius: 10px;
+      transition: border-color 0.2s ease;
+    }
+
+    .field:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(32, 191, 0, 0.1);
     }
 
     .alert {
       padding: 10px;
       border-radius: 10px;
-      background: #f3f4f6;
-      margin-top: 10px
+      background: #f0fdf4;
+      margin-top: 10px;
+      border: 1px solid #bbf7d0;
+      color: var(--accent-2);
     }
 
     .actions {
       display: flex;
       gap: 8px;
       flex-wrap: wrap
+    }
+
+    /* Profile name styling */
+    .profile-card #pNama {
+      font-weight: 700;
+      font-size: 18px;
+      color: white;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
