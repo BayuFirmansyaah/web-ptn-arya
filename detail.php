@@ -598,7 +598,7 @@ if (!$id) { header('Location: dashboard.php'); exit; }
 
     <!-- Super Admin Edit Form -->
     <?php if ($isSuper): ?>
-    <div class="edit-form fade-in">
+    <div class="edit-form fade-in" style="background-color: white !important;">
       <div class="section-header">
         <h2 class="section-title">
           <span class="section-icon">⚙</span>
