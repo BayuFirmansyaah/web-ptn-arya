@@ -6,6 +6,19 @@
   <title>Pencarian Peserta</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
+    :root {
+      --bg1: #36642d;
+      --bg2: #26865e;
+      /* gradient hijau */
+      --accent: #20bf00;
+      --accent-2: #169300;
+      /* tombol */
+      --ink: #0f172a;
+      --muted: #64748b;
+      --line: #e5e7eb;
+      --card: #ffffff;
+    }
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -14,9 +27,9 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
       min-height: 100vh;
-      color: #333;
+      color: var(--ink);
     }
 
     .container {
@@ -44,7 +57,7 @@
     .brand {
       font-size: 28px;
       font-weight: 700;
-      background: linear-gradient(45deg, #667eea, #764ba2);
+      background: linear-gradient(45deg, var(--bg1), var(--bg2));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -58,24 +71,24 @@
     .actions a {
       padding: 10px 20px;
       border-radius: 25px;
-      background: linear-gradient(45deg, #667eea, #764ba2);
+      background: linear-gradient(45deg, var(--accent), var(--accent-2));
       color: white;
       text-decoration: none;
       font-weight: 500;
       transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+      box-shadow: 0 4px 15px rgba(32, 191, 0, 0.3);
     }
 
     .actions a:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+      box-shadow: 0 6px 20px rgba(32, 191, 0, 0.4);
     }
 
     .search-title {
       text-align: center;
       font-size: 24px;
       font-weight: 600;
-      color: #333;
+      color: var(--ink);
       margin-bottom: 20px;
     }
 
@@ -97,18 +110,18 @@
       transition: all 0.3s ease;
       background: transparent;
       border: none;
-      color: #666;
+      color: var(--muted);
     }
 
     .nav-item.active {
-      background: linear-gradient(45deg, #667eea, #764ba2);
+      background: linear-gradient(45deg, var(--accent), var(--accent-2));
       color: white;
-      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+      box-shadow: 0 4px 15px rgba(32, 191, 0, 0.3);
     }
 
     .nav-item:hover:not(.active) {
-      background: rgba(102, 126, 234, 0.1);
-      color: #667eea;
+      background: rgba(32, 191, 0, 0.1);
+      color: var(--accent);
     }
 
     .filters-container {
@@ -124,7 +137,7 @@
       font-size: 18px;
       font-weight: 600;
       margin-bottom: 20px;
-      color: #333;
+      color: var(--ink);
     }
 
     .filters {
@@ -141,17 +154,17 @@
     .input, select {
       width: 100%;
       padding: 12px 16px;
-      border: 2px solid #e1e5e9;
+      border: 2px solid var(--line);
       border-radius: 10px;
-      background: white;
+      background: var(--card);
       font-size: 14px;
       transition: all 0.3s ease;
       outline: none;
     }
 
     .input:focus, select:focus {
-      border-color: #667eea;
-      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(32, 191, 0, 0.1);
     }
 
     .filter-actions {
@@ -173,12 +186,12 @@
 
     .btn-reset {
       background: #f8f9fa;
-      color: #666;
-      border: 2px solid #e9ecef;
+      color: var(--muted);
+      border: 2px solid var(--line);
     }
 
     .btn-reset:hover {
-      background: #e9ecef;
+      background: var(--line);
       transform: translateY(-1px);
     }
 
@@ -202,11 +215,11 @@
     .results-title {
       font-size: 18px;
       font-weight: 600;
-      color: #333;
+      color: var(--ink);
     }
 
     .results-count {
-      background: linear-gradient(45deg, #667eea, #764ba2);
+      background: linear-gradient(45deg, var(--accent), var(--accent-2));
       color: white;
       padding: 6px 12px;
       border-radius: 20px;
@@ -215,8 +228,8 @@
     }
 
     .card {
-      background: white;
-      border: 1px solid #e1e5e9;
+      background: var(--card);
+      border: 1px solid var(--line);
       border-radius: 12px;
       padding: 20px;
       margin-bottom: 15px;
@@ -227,7 +240,7 @@
     .card:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-      border-color: #667eea;
+      border-color: var(--accent);
     }
 
     .card-content {
@@ -241,12 +254,12 @@
     .card-info h3 {
       font-size: 16px;
       font-weight: 600;
-      color: #333;
+      color: var(--ink);
       margin-bottom: 8px;
     }
 
     .card-meta {
-      color: #666;
+      color: var(--muted);
       font-size: 14px;
       display: flex;
       flex-wrap: wrap;
@@ -261,7 +274,7 @@
 
     .detail-btn {
       padding: 8px 20px;
-      background: linear-gradient(45deg, #667eea, #764ba2);
+      background: linear-gradient(45deg, var(--accent), var(--accent-2));
       color: white;
       border: none;
       border-radius: 20px;
@@ -273,7 +286,7 @@
 
     .detail-btn:hover {
       transform: translateY(-1px);
-      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      box-shadow: 0 4px 15px rgba(32, 191, 0, 0.4);
     }
 
     .alert {
@@ -287,9 +300,9 @@
     }
 
     .loading {
-      background: rgba(13, 110, 253, 0.1);
-      border: 1px solid rgba(13, 110, 253, 0.3);
-      color: #0a58ca;
+      background: rgba(32, 191, 0, 0.1);
+      border: 1px solid rgba(32, 191, 0, 0.3);
+      color: var(--accent-2);
     }
 
     .empty-state {
@@ -299,12 +312,12 @@
 
     .empty-state h3 {
       font-size: 18px;
-      color: #666;
+      color: var(--muted);
       margin-bottom: 10px;
     }
 
     .empty-state p {
-      color: #999;
+      color: var(--muted);
       margin-bottom: 20px;
     }
 
