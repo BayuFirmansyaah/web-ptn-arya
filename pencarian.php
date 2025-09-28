@@ -456,19 +456,15 @@
     let typingTimer;
     const STORE_KEY = 'PUB_FILTERS_V2';
 
-    function rangeLetters(a, b) {
-      const out = [];
-      for (let c = a.charCodeAt(0); c <= b.charCodeAt(0); c++) out.push(String.fromCharCode(c));
-      return out;
-    }
+    // Updated Class Mapping - matching dashboard
     const KELAS_MAP = {
       '12EXC': {
-        'PUTRA': ['A1', 'B1'],
-        'PUTRI': ['C1', 'D1']
+        'PUTRA': ['A1', 'B1', 'OVERSEAS', 'KHOS'],
+        'PUTRI': ['C1', 'D1', 'OVERSEAS', 'KHOS']
       },
       '12CI': {
-        'PUTRA': rangeLetters('A', 'D'),
-        'PUTRI': rangeLetters('E', 'M')
+        'PUTRA': ['A', 'B', 'C', 'D', 'OVERSEAS', 'KHOS'],
+        'PUTRI': ['E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'OVERSEAS', 'KHOS']
       }
     };
 
@@ -528,7 +524,13 @@
       } catch {}
     }
 
-    [elGender, elMA, elKelas, elSort].forEach(el => {
+    // Updated event handlers to match dashboard behavior
+    elGender.addEventListener('change', () => {
+      updateKelas();
+      saveFilters();
+      load();
+    });
+    [elMA, elKelas, elSort].forEach(el => {
       el.addEventListener('change', () => {
         saveFilters();
         load();
@@ -635,12 +637,10 @@
       }
     }
 
+    // Initialize
     (function () {
       restoreFilters();
-      if (!localStorage.getItem(STORE_KEY)) {
-        updateKelas();
-        load();
-      }
+      load();
     })();
   </script>
 </body>
