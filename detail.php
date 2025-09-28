@@ -562,39 +562,78 @@ if (!$id) { header('Location: dashboard.php'); exit; }
     <!-- Profile Section -->
     <div class="profile-section fade-in">
       <div class="profile-header">
-        <div class="avatar" id="avatar">?</div>
-        <div class="profile-info">
-          <h1 id="pNama">Memuat data peserta...</h1>
-          <span class="profile-status">Peserta Aktif</span>
-        </div>
+      <div class="avatar" id="avatar">?</div>
+      <div class="profile-info">
+        <h1 id="pNama">Memuat data peserta...</h1>
+        <span class="profile-status">Peserta Aktif</span>
+      </div>
+      <?php if ($isSuper): ?>
+      <div style="margin-left: auto;">
+        <button class="btn btn-danger" onclick="deletePeserta('<?= htmlspecialchars($id, ENT_QUOTES, 'UTF-8') ?>')">
+        🗑️ Hapus Peserta
+        </button>
+      </div>
+      <?php endif; ?>
       </div>
       <div class="profile-details" id="profileDetails">
-        <div class="detail-item">
-          <span class="detail-label">Program</span>
-          <span class="detail-value" id="detailProgram">-</span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label">Kelas</span>
-          <span class="detail-value" id="detailKelas">-</span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label">Madrasah Aliyah</span>
-          <span class="detail-value" id="detailMA">-</span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label">Jurusan</span>
-          <span class="detail-value" id="detailJurusan">-</span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label">Gender</span>
-          <span class="detail-value" id="detailGender">-</span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label">ID Peserta</span>
-          <span class="detail-value"><?= htmlspecialchars($id) ?></span>
-        </div>
+      <div class="detail-item">
+        <span class="detail-label">Program</span>
+        <span class="detail-value" id="detailProgram">-</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Kelas</span>
+        <span class="detail-value" id="detailKelas">-</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Madrasah Aliyah</span>
+        <span class="detail-value" id="detailMA">-</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Jurusan</span>
+        <span class="detail-value" id="detailJurusan">-</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Gender</span>
+        <span class="detail-value" id="detailGender">-</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">ID Peserta</span>
+        <span class="detail-value"><?= htmlspecialchars($id) ?></span>
+      </div>
       </div>
     </div>
+
+    <script>
+    // Add this function to the existing script section
+    async function deletePeserta(id) {
+      const nama = document.getElementById('pNama').textContent;
+      if (confirm(`Apakah Anda yakin ingin menghapus peserta "${nama}"?\n\nTindakan ini tidak dapat dibatalkan dan akan menghapus semua data termasuk file yang telah diupload.`)) {
+        try {
+          const response = await fetch('./api/peserta_delete.php', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              id: id
+            })
+          });
+          
+          const result = await response.json();
+          
+          if (result.ok) {
+            alert(`Peserta berhasil dihapus. ${result.deleted_from_peserta} data peserta terhapus.`);
+            window.location.href = 'dashboard.php';
+          } else {
+            alert('Gagal menghapus peserta: ' + (result.error || 'Unknown error'));
+          }
+        } catch (error) {
+          alert('Terjadi kesalahan saat menghapus peserta');
+          console.error('Delete error:', error);
+        }
+      }
+    }
+    </script>
 
     <!-- Super Admin Edit Form -->
     <?php if ($isSuper): ?>

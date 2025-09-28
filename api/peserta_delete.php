@@ -5,7 +5,8 @@ require_super_admin();
 header('Content-Type: application/json; charset=utf-8');
 require_once __DIR__.'/../lib/jsondb.php';
 
-$id = trim($_POST['id'] ?? '');
+$input = json_decode(file_get_contents('php://input'), true);
+$id = trim($input['id'] ?? '');
 if($id===''){ echo json_encode(['ok'=>false,'error'=>'id kosong']); exit; }
 
 $changed=false;
@@ -35,3 +36,4 @@ if (is_dir($dir)) {
 }
 
 echo json_encode(['ok'=>true,'deleted_from_peserta'=>($before-count($pArr))]);
+?>
