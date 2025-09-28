@@ -639,54 +639,108 @@ if (!$id) { header('Location: dashboard.php'); exit; }
     <?php if ($isSuper): ?>
     <div class="edit-form fade-in" style="background-color: white !important;">
       <div class="section-header">
-        <h2 class="section-title">
-          <span class="section-icon">⚙</span>
-          Edit Data Peserta
-        </h2>
+      <h2 class="section-title">
+        <span class="section-icon">⚙</span>
+        Edit Data Peserta
+      </h2>
       </div>
-      <div class="form-grid">
-        <div class="form-group">
-          <label class="form-label">Nama Lengkap</label>
-          <input id="f_nama" class="form-field" placeholder="Masukkan nama lengkap">
+      <div class="form-grid" style="grid-template-columns: repeat(2, 1fr);">
+      <div class="form-group">
+        <label class="form-label">Nama Lengkap</label>
+        <input id="f_nama" class="form-field" placeholder="Masukkan nama lengkap">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Program</label>
+        <select id="f_program" class="form-field">
+        <option value="12EXC">12EXC</option>
+        <option value="12CI">12CI</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Gender</label>
+        <select id="f_gender" class="form-field">
+        <option value="PUTRA">PUTRA</option>
+        <option value="PUTRI">PUTRI</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Madrasah Aliyah</label>
+        <select id="f_ma" class="form-field">
+        <option value="MA01">MA01</option>
+        <option value="MA03">MA03</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Kelas</label>
+        <input id="f_kelas" class="form-field" placeholder="Contoh: A1, B1, C1, atau A-M">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Jurusan</label>
+        <input id="f_jurusan" class="form-field" placeholder="Masukkan jurusan">
+      </div>
+      </div>
+      <div class="form-group" style="margin-top: 16px;">
+      <label class="form-label">Foto Profil</label>
+      <div class="file-input" onclick="document.getElementById('f_foto').click()" style="margin: 0; padding: 12px; text-align: left; cursor: pointer;">
+        <input type="file" id="f_foto" accept=".jpg,.jpeg,.png" style="display: none;" />
+        <div style="display: flex; align-items: center; gap: 12px;">
+        <div id="fotoPreview" style="width: 60px; height: 60px; border-radius: 8px; background: var(--surface); border: 2px dashed var(--line); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <span style="color: var(--muted); font-size: 24px;">📷</span>
         </div>
-        <div class="form-group">
-          <label class="form-label">Program</label>
-          <select id="f_program" class="form-field">
-            <option value="12EXC">12EXC</option>
-            <option value="12CI">12CI</option>
-          </select>
+        <div style="flex: 1;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+          <span>📷</span>
+          <span id="fotoLabel">Pilih foto profil</span>
+          </div>
+          <small style="color: var(--muted); display: block; margin-top: 4px;">Format: JPG, PNG (Max: 2MB)</small>
         </div>
-        <div class="form-group">
-          <label class="form-label">Gender</label>
-          <select id="f_gender" class="form-field">
-            <option value="PUTRA">PUTRA</option>
-            <option value="PUTRI">PUTRI</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label class="form-label">Madrasah Aliyah</label>
-          <select id="f_ma" class="form-field">
-            <option value="MA01">MA01</option>
-            <option value="MA03">MA03</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label class="form-label">Kelas</label>
-          <input id="f_kelas" class="form-field" placeholder="Contoh: A1, B1, C1, atau A-M">
-        </div>
-        <div class="form-group">
-          <label class="form-label">Jurusan</label>
-          <input id="f_jurusan" class="form-field" placeholder="Masukkan jurusan">
         </div>
       </div>
-      <div style="display: flex; gap: 12px; align-items: center;">
-        <button class="btn btn-primary" onclick="saveBiodata()">
-          <span id="saveLoading" class="loading" style="display: none;"></span>
-          Simpan Perubahan
-        </button>
-        <div id="saveMsg" class="alert" style="display:none"></div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center; margin-top: 16px;">
+      <button class="btn btn-primary" onclick="saveBiodata()">
+        <span id="saveLoading" class="loading" style="display: none;"></span>
+        Simpan Perubahan
+      </button>
+      <div id="saveMsg" class="alert" style="display:none"></div>
       </div>
     </div>
+    
+    <script>
+    // Add photo preview functionality
+    document.getElementById('f_foto').addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      const preview = document.getElementById('fotoPreview');
+      const label = document.getElementById('fotoLabel');
+      
+      if (file) {
+      // Check file size (2MB max)
+      if (file.size > 2 * 1024 * 1024) {
+        alert('Ukuran file maksimal 2MB');
+        this.value = '';
+        return;
+      }
+      
+      // Check file type
+      const allowedTypes = ['image/jpeg', 'image/jpg', 'image/png'];
+      if (!allowedTypes.includes(file.type)) {
+        alert('Format file harus JPG atau PNG');
+        this.value = '';
+        return;
+      }
+      
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        preview.innerHTML = `<img src="${e.target.result}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">`;
+        label.textContent = file.name;
+      };
+      reader.readAsDataURL(file);
+      } else {
+      preview.innerHTML = '<span style="color: var(--muted); font-size: 24px;">📷</span>';
+      label.textContent = 'Pilih foto profil';
+      }
+    });
+    </script>
     <?php endif; ?>
 
     <!-- Sertifikat Section -->
@@ -841,51 +895,65 @@ if (!$id) { header('Location: dashboard.php'); exit; }
 
     async function load() {
       try {
-        const r = await fetch('api/peserta_detail_admin.php?id=' + encodeURIComponent(id));
-        const j = await r.json();
-        
-        if (j.error) {
-          pNama.textContent = 'Error: ' + j.error;
-          return;
-        }
-        
-        const p = j.peserta || {};
-        const s = j.sertifikat || [];
-        const b = j.berkas || [];
+      const r = await fetch('api/peserta_detail_admin.php?id=' + encodeURIComponent(id));
+      const j = await r.json();
+      
+      if (j.error) {
+        pNama.textContent = 'Error: ' + j.error;
+        return;
+      }
+      
+      const p = j.peserta || {};
+      const s = j.sertifikat || [];
+      const b = j.berkas || [];
 
-        // Update profile info
-        pNama.textContent = p.nama || 'Nama tidak tersedia';
+      // Update profile info
+      pNama.textContent = p.nama || 'Nama tidak tersedia';
+      
+      // Update avatar - show profile photo if available
+      if (p.profile && p.profile.foto_path) {
+        avatar.innerHTML = `<img src="${escapeHtml(p.profile.foto_path)}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;" alt="Profile Photo">`;
+      } else {
         avatar.textContent = initials(p.nama || '');
+      }
+      
+      // Update detail fields
+      detailProgram.textContent = p.program || '-';
+      detailKelas.textContent = p.kelas || '-';
+      detailMA.textContent = p.ma || '-';
+      detailJurusan.textContent = p.jurusan || '-';
+      detailGender.textContent = p.gender || '-';
+
+      renderFiles(tbS, emptyS, containerS, s, 'sertifikat');
+      renderFiles(tbB, emptyB, containerB, b, 'berkas');
+
+      // Fill super admin form if applicable
+      if (isSuper) {
+        const fields = {
+        f_nama: p.nama || '',
+        f_program: p.program || '12EXC',
+        f_gender: p.gender || 'PUTRA',
+        f_ma: p.ma || 'MA01',
+        f_kelas: p.kelas || '',
+        f_jurusan: p.jurusan || ''
+        };
+
+        Object.entries(fields).forEach(([id, value]) => {
+        const elem = document.getElementById(id);
+        if (elem) elem.value = value;
+        });
         
-        // Update detail fields
-        detailProgram.textContent = p.program || '-';
-        detailKelas.textContent = p.kelas || '-';
-        detailMA.textContent = p.ma || '-';
-        detailJurusan.textContent = p.jurusan || '-';
-        detailGender.textContent = p.gender || '-';
-
-        renderFiles(tbS, emptyS, containerS, s, 'sertifikat');
-        renderFiles(tbB, emptyB, containerB, b, 'berkas');
-
-        // Fill super admin form if applicable
-        if (isSuper) {
-          const fields = {
-            f_nama: p.nama || '',
-            f_program: p.program || '12EXC',
-            f_gender: p.gender || 'PUTRA',
-            f_ma: p.ma || 'MA01',
-            f_kelas: p.kelas || '',
-            f_jurusan: p.jurusan || ''
-          };
-
-          Object.entries(fields).forEach(([id, value]) => {
-            const elem = document.getElementById(id);
-            if (elem) elem.value = value;
-          });
+        // Show current profile photo in form preview if available
+        if (p.profile && p.profile.foto_path) {
+        const preview = document.getElementById('fotoPreview');
+        const label = document.getElementById('fotoLabel');
+        preview.innerHTML = `<img src="${escapeHtml(p.profile.foto_path)}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;" alt="Current Photo">`;
+        label.textContent = p.profile.foto_name || 'Foto profil saat ini';
         }
+      }
       } catch (error) {
-        pNama.textContent = 'Gagal memuat data';
-        console.error('Load error:', error);
+      pNama.textContent = 'Gagal memuat data';
+      console.error('Load error:', error);
       }
     }
 
@@ -1025,28 +1093,21 @@ if (!$id) { header('Location: dashboard.php'); exit; }
 
     async function saveBiodata() {
       if (!isSuper) {
-        alert('Hanya super admin yang dapat mengedit data');
-        return;
+      alert('Hanya super admin yang dapat mengedit data');
+      return;
       }
 
       const saveBtn = document.querySelector('.btn[onclick="saveBiodata()"]');
       const saveLoading = document.getElementById('saveLoading');
       const msg = document.getElementById('saveMsg');
       
-      const body = {
-        id,
-        nama: document.getElementById('f_nama').value.trim(),
-        program: document.getElementById('f_program').value,
-        gender: document.getElementById('f_gender').value,
-        ma: document.getElementById('f_ma').value,
-        kelas: document.getElementById('f_kelas').value.trim(),
-        jurusan: document.getElementById('f_jurusan').value.trim()
-      };
-
+      const fotoFile = document.getElementById('f_foto').files[0];
+      
       // Validation
-      if (!body.nama) {
-        showMessage(msg, 'Nama tidak boleh kosong', 'error');
-        return;
+      const nama = document.getElementById('f_nama').value.trim();
+      if (!nama) {
+      showMessage(msg, 'Nama tidak boleh kosong', 'error');
+      return;
       }
 
       saveBtn.disabled = true;
@@ -1054,28 +1115,61 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       msg.style.display = 'none';
 
       try {
-        const r = await fetch('api/peserta_save.php', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(body)
+      // Prepare data object
+      const data = {
+        id: id,
+        nama: nama,
+        program: document.getElementById('f_program').value,
+        gender: document.getElementById('f_gender').value,
+        ma: document.getElementById('f_ma').value,
+        kelas: document.getElementById('f_kelas').value.trim(),
+        jurusan: document.getElementById('f_jurusan').value.trim()
+      };
+
+      // If photo is selected, convert to base64
+      if (fotoFile) {
+        const reader = new FileReader();
+        const base64Promise = new Promise((resolve, reject) => {
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(fotoFile);
         });
         
-        const j = await r.json();
+        const base64Data = await base64Promise;
+        data.foto = base64Data;
+        data.foto_name = fotoFile.name;
+        data.foto_type = fotoFile.type;
+      }
+
+      // Save biodata with JSON
+      const r = await fetch('api/peserta_save.php', {
+        method: 'POST',
+        headers: {
+        'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+      
+      const j = await r.json();
+      
+      if (j.ok) {
+        showMessage(msg, `Data berhasil ${j.action === 'updated' ? 'diperbarui' : 'disimpan'}!`, 'success');
         
-        if (j.ok) {
-          showMessage(msg, `Data berhasil ${j.action === 'updated' ? 'diperbarui' : 'disimpan'}!`, 'success');
-          load(); // Reload data to reflect changes
-        } else {
-          showMessage(msg, j.error || 'Gagal menyimpan data', 'error');
-        }
+        // Clear photo input after successful save
+        document.getElementById('f_foto').value = '';
+        document.getElementById('fotoPreview').innerHTML = '<span style="color: var(--muted); font-size: 24px;">📷</span>';
+        document.getElementById('fotoLabel').textContent = 'Pilih foto profil';
+        
+        load(); // Reload data to reflect changes
+      } else {
+        showMessage(msg, j.error || 'Gagal menyimpan data', 'error');
+      }
       } catch (error) {
-        showMessage(msg, 'Terjadi kesalahan saat menyimpan', 'error');
-        console.error('Save error:', error);
+      showMessage(msg, error.message || 'Terjadi kesalahan saat menyimpan', 'error');
+      console.error('Save error:', error);
       } finally {
-        saveBtn.disabled = false;
-        saveLoading.style.display = 'none';
+      saveBtn.disabled = false;
+      saveLoading.style.display = 'none';
       }
     }
 
@@ -1086,7 +1180,7 @@ if (!$id) { header('Location: dashboard.php'); exit; }
       
       // Auto hide after 5 seconds
       setTimeout(() => {
-        element.style.display = 'none';
+      element.style.display = 'none';
       }, 5000);
     }
 

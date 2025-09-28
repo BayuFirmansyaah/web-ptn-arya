@@ -1,4 +1,22 @@
+# Disable directory browsing
 Options -Indexes
-<FilesMatch "\.(php|phtml|phar)$">
+
+# Deny access to all files by default
+<Files "*">
+  Require all denied
+</Files>
+
+# Allow only safe file types
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|pdf|txt|css|js|ico|woff|woff2|ttf|eot)$">
+  Require all granted
+</FilesMatch>
+
+# Block dangerous file extensions
+<FilesMatch "\.(php|phtml|phar|pl|py|jsp|asp|sh|cgi|htaccess|htpasswd|ini|log|sql|bak|old)$">
+  Require all denied
+</FilesMatch>
+
+# Block files without extensions
+<FilesMatch "^[^.]*$">
   Require all denied
 </FilesMatch>

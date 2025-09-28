@@ -447,7 +447,9 @@
         "ma": "MA01",
         "gender": "PUTRA",
         "jurusan": "-",
-        "profile": null
+        "profile": null,
+        "created_at": 1759058060,
+        "updated_at": 1759058060
     },
     {
         "id": "p68d11e3589402",
