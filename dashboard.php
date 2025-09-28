@@ -436,21 +436,16 @@ $isSuper = function_exists('is_super_admin') ? is_super_admin() : (
     const STORE_KEY = 'ADM_FILTERS_V2';
 
     // ===============================
-    // Helpers
+    // Updated Class Mapping
     // ===============================
-    function rangeLetters(a, b) {
-      const out = [];
-      for (let c = a.charCodeAt(0); c <= b.charCodeAt(0); c++) out.push(String.fromCharCode(c));
-      return out;
-    }
     const KELAS_MAP = {
       '12EXC': {
-        'PUTRA': ['A1', 'B1'],
-        'PUTRI': ['C1', 'D1']
+        'PUTRA': ['A1', 'B1', 'OVERSEAS', 'KHOS'],
+        'PUTRI': ['C1', 'D1', 'OVERSEAS', 'KHOS']
       },
       '12CI': {
-        'PUTRA': rangeLetters('A', 'D'),
-        'PUTRI': rangeLetters('E', 'M')
+        'PUTRA': ['A', 'B', 'C', 'D', 'OVERSEAS', 'KHOS'],
+        'PUTRI': ['E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'OVERSEAS', 'KHOS']
       }
     };
 

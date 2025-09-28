@@ -134,21 +134,8 @@ require_super_admin();
             <div class="form-group">
                 <label for="program">Program</label>
                 <select id="program" name="program">
-                    <option value="12CI">12CI</option>
-                    <option value="12EXC">12EXC</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="kelas">Kelas</label>
-                <input type="text" id="kelas" name="kelas" placeholder="Contoh: E">
-            </div>
-
-            <div class="form-group">
-                <label for="ma">MA</label>
-                <select id="ma" name="ma">
-                    <option value="MA01">MA01</option>
-                    <option value="MA03">MA03</option>
+                    <option value="12EXC">12 EXCELLENT</option>
+                    <option value="12CI">12 CERDAS ISTIMEWA</option>
                 </select>
             </div>
 
@@ -157,6 +144,21 @@ require_super_admin();
                 <select id="gender" name="gender">
                     <option value="PUTRA">PUTRA</option>
                     <option value="PUTRI">PUTRI</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="kelas">Kelas</label>
+                <select id="kelas" name="kelas">
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="ma">MA</label>
+                <select id="ma" name="ma">
+                    <option value="MA01">MA01</option>
+                    <option value="MA03">MA03</option>
                 </select>
             </div>
 
@@ -170,6 +172,44 @@ require_super_admin();
     </div>
 
     <script>
+        const kelasOptions = {
+            '12EXC': {
+                'PUTRA': ['A1', 'B1', 'OVERSEAS', 'KHOS'],
+                'PUTRI': ['C1', 'D1', 'OVERSEAS', 'KHOS']
+            },
+            '12CI': {
+                'PUTRA': ['A', 'B', 'C', 'D', 'OVERSEAS', 'KHOS'],
+                'PUTRI': ['E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'OVERSEAS', 'KHOS']
+            }
+        };
+
+        function updateKelasOptions() {
+            const program = document.getElementById('program').value;
+            const gender = document.getElementById('gender').value;
+            const kelasSelect = document.getElementById('kelas');
+            
+            // Clear existing options
+            kelasSelect.innerHTML = '';
+            
+            // Get appropriate class options
+            const options = kelasOptions[program][gender];
+            
+            // Populate new options
+            options.forEach(kelas => {
+                const option = document.createElement('option');
+                option.value = kelas;
+                option.textContent = kelas;
+                kelasSelect.appendChild(option);
+            });
+        }
+
+        // Initialize on page load
+        updateKelasOptions();
+
+        // Update when program or gender changes
+        document.getElementById('program').addEventListener('change', updateKelasOptions);
+        document.getElementById('gender').addEventListener('change', updateKelasOptions);
+
         document.getElementById('pesertaForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
@@ -205,6 +245,7 @@ require_super_admin();
                     alert.textContent = 'Peserta berhasil ditambahkan!';
                     alert.style.display = 'block';
                     this.reset();
+                    updateKelasOptions(); // Reset class options
                     
                     setTimeout(() => {
                         window.location.href = '../dashboard.php';
