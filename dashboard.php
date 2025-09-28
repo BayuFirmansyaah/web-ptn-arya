@@ -365,7 +365,7 @@ $isSuper = function_exists('is_super_admin') ? is_super_admin() : (
         <div class="brand">Dashboard Admin</div>
         <div class="actions">
           <?php if ($isSuper): ?>
-          <a href="tools/upload_json.php">Upload JSON Peserta</a>
+           <a href="tools/add_peserta.php" id="btnAddPeserta" class="btn btn-primary">Tambah Peserta</a>
           <?php endif; ?>
           <a href="api/logout.php">Keluar</a>
         </div>
