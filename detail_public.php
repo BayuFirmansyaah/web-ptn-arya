@@ -532,36 +532,43 @@ if ($id === '') {
 
     (async () => {
       try {
-        const r = await fetch('api/peserta_detail.php?id=' + encodeURIComponent(id));
-        const j = await r.json();
+      const r = await fetch('api/peserta_detail.php?id=' + encodeURIComponent(id));
+      const j = await r.json();
 
-        if (j.error) {
-          pNama.textContent = j.error;
-          profileDetails.innerHTML = '<div class="empty-state">Gagal memuat data</div>';
-          sertifikatContent.innerHTML = '<div class="empty-state">Gagal memuat data</div>';
-          berkasContent.innerHTML = '<div class="empty-state">Gagal memuat data</div>';
-          return;
-        }
+      if (j.error) {
+        pNama.textContent = j.error;
+        profileDetails.innerHTML = '<div class="empty-state">Gagal memuat data</div>';
+        sertifikatContent.innerHTML = '<div class="empty-state">Gagal memuat data</div>';
+        berkasContent.innerHTML = '<div class="empty-state">Gagal memuat data</div>';
+        return;
+      }
 
-        const p = j.profil;
-        const s = j.sertifikat || [];
-        const b = j.berkas || [];
+      const p = j.profil;
+      const s = j.sertifikat || [];
+      const b = j.berkas || [];
 
-        // Update profile
-        pNama.textContent = p.nama || 'Nama tidak tersedia';
+      // Update profile
+      pNama.textContent = p.nama || 'Nama tidak tersedia';
+      
+      // Update avatar - show profile photo if available
+      if (p.profile && p.profile.foto_path) {
+        avatar.innerHTML = `<img src="${p.profile.foto_path}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;" alt="Profile Photo">`;
+      } else {
         avatar.textContent = initials(p.nama || '');
-        // Detail-item horizontal (tepat di bawah nama)
-        profileDetails.innerHTML = createProfileDetails(p);
+      }
+      
+      // Detail-item horizontal (tepat di bawah nama)
+      profileDetails.innerHTML = createProfileDetails(p);
 
-        // Update files
-        sertifikatContent.innerHTML = createFilesGrid(s, 'sertifikat');
-        berkasContent.innerHTML = createFilesGrid(b, 'berkas');
+      // Update files
+      sertifikatContent.innerHTML = createFilesGrid(s, 'sertifikat');
+      berkasContent.innerHTML = createFilesGrid(b, 'berkas');
 
       } catch (e) {
-        pNama.textContent = 'Gagal memuat data';
-        profileDetails.innerHTML = '<div class="empty-state">Terjadi kesalahan saat memuat data</div>';
-        sertifikatContent.innerHTML = '<div class="empty-state">Terjadi kesalahan saat memuat data</div>';
-        berkasContent.innerHTML = '<div class="empty-state">Terjadi kesalahan saat memuat data</div>';
+      pNama.textContent = 'Gagal memuat data';
+      profileDetails.innerHTML = '<div class="empty-state">Terjadi kesalahan saat memuat data</div>';
+      sertifikatContent.innerHTML = '<div class="empty-state">Terjadi kesalahan saat memuat data</div>';
+      berkasContent.innerHTML = '<div class="empty-state">Terjadi kesalahan saat memuat data</div>';
       }
     })();
   </script>

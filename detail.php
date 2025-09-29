@@ -779,7 +779,6 @@ if (!$id) { header('Location: dashboard.php'); exit; }
           <thead>
             <tr>
               <th>Informasi File</th>
-              <th style="width: 300px;">Aksi</th>
             </tr>
           </thead>
           <tbody id="tbS">
@@ -813,7 +812,6 @@ if (!$id) { header('Location: dashboard.php'); exit; }
           <thead>
             <tr>
               <th>Informasi File</th>
-              <th style="width: 300px;">Aksi</th>
             </tr>
           </thead>
           <tbody id="tbB">
@@ -991,27 +989,27 @@ if (!$id) { header('Location: dashboard.php'); exit; }
         const uploadDate = f.created_at ? new Date(f.created_at).toLocaleDateString('id-ID') : '';
         
         tr.innerHTML = `
-          <td>
+            <td>
             <div class="file-info">
               <div class="file-name">${escapeHtml(f.nama_file)}</div>
               <div class="file-path">${escapeHtml(f.path)}</div>
               ${fileSize ? `<small style="color: var(--muted);">${fileSize}</small>` : ''}
               ${uploadDate ? `<small style="color: var(--muted);">Diupload: ${uploadDate}</small>` : ''}
+              <div class="file-actions" style="margin-top: 8px;">
+          <a class="btn btn-secondary" href="${escapeHtml(f.path)}" target="_blank" rel="noopener">
+          👁️ Lihat
+          </a>
+          <a class="btn btn-outline" href="${escapeHtml(f.path)}" download>
+          💾 Unduh
+          </a>
+          <button class="btn btn-danger" onclick="deleteFile('${type}','${f.id}')">
+          🗑️ Hapus
+          </button>
+              </div>
             </div>
-          </td>
-          <td>
-            <div class="file-actions">
-              <a class="btn btn-secondary" href="${escapeHtml(f.path)}" target="_blank" rel="noopener">
-                👁️ Lihat
-              </a>
-              <a class="btn btn-outline" href="${escapeHtml(f.path)}" download>
-                💾 Unduh
-              </a>
-              <button class="btn btn-danger" onclick="deleteFile('${type}','${f.id}')">
-                🗑️ Hapus
-              </button>
-            </div>
-          </td>
+            </td>
+            <td style="display: none;">
+            </td>
         `;
         tbody.appendChild(tr);
       }
