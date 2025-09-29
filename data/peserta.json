@@ -1,3155 +1,3164 @@
 [
-    {
-        "id": "p68d11e3583ff4",
-        "nama": "ABDURAHMAN MULKI",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3584129",
-        "nama": "ACHMAD FAROUQ ZAMZAMI",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3584243",
-        "nama": "ACTAR BINTANG RAMADHAN",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35844b6",
-        "nama": "ADITYA PUTRA PRAYOGA",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35846bf",
-        "nama": "AFIF EZZRA AL BUSTAMI",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35848a0",
-        "nama": "AHMAD YUSUF AL BAIHAQI",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3584ae7",
-        "nama": "ALVARO NAUFAL",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3584d84",
-        "nama": "ARFAN NUR MAULANA",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3584fab",
-        "nama": "BINTANG ALANSKAR",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35851bd",
-        "nama": "BRENDI IZZUL HAQ",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3585395",
-        "nama": "FAHRUL AHMAD FAUZI",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3585589",
-        "nama": "FAIZ AHMAD MUBAROK",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3585787",
-        "nama": "FAREL PUTRA PRAYOGA",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3585981",
-        "nama": "JAFITS ANKAA SYARIF",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3585b82",
-        "nama": "M DZAKWAN ASSADEL PURNOMO",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3585dd7",
-        "nama": "M NABIL ZAHRON",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3585ff7",
-        "nama": "M REVAND ARRAFI RACHMAN",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35861e9",
-        "nama": "MOCH NASRIL FIRDAUS",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358642d",
-        "nama": "MOCHAMMAD HAFIT KURNIAWAN",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3586602",
-        "nama": "MUKHAMAD SANTOSO WIBOWO",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35867eb",
-        "nama": "RAFAEL SANTOSO",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3586a0f",
-        "nama": "RAFI FIRMANSYAH",
-        "program": "12EXC",
-        "kelas": "A1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3586c99",
-        "nama": "A IRFAN RAHMATULLAH",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3586e66",
-        "nama": "AHMAD JUNDI ROBBANI",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3586ff4",
-        "nama": "ANDI WAHYU BAKHITA",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3587130",
-        "nama": "ARYANSYAH MAHENDRA",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35872a0",
-        "nama": "ASYROFUDIN",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35873d6",
-        "nama": "DAVIN AKBAR MAULANA",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3587500",
-        "nama": "ESFANDIYAR GHOUZANI",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358762f",
-        "nama": "FARHAN AUFA ARIFA",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3587756",
-        "nama": "HABIBURAHMAN LUTHIN",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3587898",
-        "nama": "KAHFID AHMAD",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3587a64",
-        "nama": "M ATIQUDDIN ARDIANSYAH",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3587b95",
-        "nama": "M AZKA TAZLIMY",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3587d00",
-        "nama": "M INAMULLAH ANNAFI",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3587e30",
-        "nama": "M WILDAN RIFKI ALWAFI",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3587fa1",
-        "nama": "NAUFAL AFIF AL-HAKIN",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35880e3",
-        "nama": "RIZKY ANANDHITA ARIF",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358822c",
-        "nama": "RIZKY IVAN MAULANA",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35883c3",
-        "nama": "TRAVIS KHAYRU AL-GHOUZALI",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3588550",
-        "nama": "WALIUDDIN IRFAN HADZIQ",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3588785",
-        "nama": "HAKAM ABDILLAH",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA03",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35889f0",
-        "nama": "MUHAMMAD HANIF IRFANY",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA03",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3588bf3",
-        "nama": "IFFAT NASWAN",
-        "program": "12EXC",
-        "kelas": "B1",
-        "ma": "MA03",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3589211",
-        "nama": "AHMAD AQNA AZKA ZAENAL ABIDIN",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null,
-        "created_at": 1759058060,
-        "updated_at": 1759058060
-    },
-    {
-        "id": "p68d11e3589402",
-        "nama": "AHMAD BARIKI ALIE",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3589613",
-        "nama": "ALDI MAULANA PAMUNGKAS ALI",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3589835",
-        "nama": "ALDI SUHENDRA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3589ba8",
-        "nama": "CHAESAR JULIANO SHELVA PRATAMA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3589e73",
-        "nama": "HABSYI AULIYA' PERMANA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3589fab",
-        "nama": "MUHAMMAD ZAKI MUNIF",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358a0ea",
-        "nama": "MUHAMMAD BINTANG WAHYU WARDHANA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358a242",
-        "nama": "PRADIPTA RIZKY WIRATARA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358a38c",
-        "nama": "DIMAS RIZKI FIRMANSYAH",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358a4c2",
-        "nama": "DZAHIR SAMUEL YUSSUF",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358a606",
-        "nama": "DZAKI JUMAYYIL SYAFI'I",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA03",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358a73e",
-        "nama": "FAJARUR ROHMANUL ALIM",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358a888",
-        "nama": "ANDHIKA AKBAR NUGRAHA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358aa62",
-        "nama": "ARTHA DIKMA PRATAMA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358abf4",
-        "nama": "BINTANG AZMY FARROS",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358ae0c",
-        "nama": "CAHYO SYAHLEVI DWI WARDANA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "-",
-        "jurusan": "MA01"
-    },
-    {
-        "id": "p68d11e358b02e",
-        "nama": "DANI AHMAD YASIR ALFARIZQI",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358b1ff",
-        "nama": "DIMAS MAULANA ZAIN FAIRUZ",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358b367",
-        "nama": "FARUQ ARRAFFI RUSYDI HARTONO",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358b4ba",
-        "nama": "GAYU NUR MUHAMMAD AKBARUDIN PUTRA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358b5f9",
-        "nama": "HANIF AMRULLOH",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358b738",
-        "nama": "ILHAM ASSIR WADA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358b87b",
-        "nama": "RAIHAN MAHARDIKA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358b9be",
-        "nama": "ABIY LAMYA RIZVI",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358bb03",
-        "nama": "FARREL ARYA MAHARDIKA",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358bd52",
-        "nama": "KHAFIF IBNU SAHREZA",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358bf5b",
-        "nama": "M. BAHARI ALFIN",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358c18b",
-        "nama": "MANGGALA PUTRA SATYA ANANTA",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e357c86e",
-        "nama": "YAQDHAN FAWAZ FATIH PUTRA S",
-        "program": "B",
-        "kelas": "PUTRA",
-        "ma": "MA01",
-        "gender": "-",
-        "jurusan": "MA01"
-    },
-    {
-        "id": "p68d11e3589a20",
-        "nama": "CARVALHO ZEFRAN SUBIYANTORO",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3589ce2",
-        "nama": "DAFFA MANDALA PUTRA",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358c384",
-        "nama": "MAVELLE YULFAHMI RIF'AT TURYOTO PUTRA",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358c527",
-        "nama": "MOCH. AISYEN FALECHI ANDI MAKARIM",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358c6df",
-        "nama": "MOCH.YUSUF SYAHPUTRA",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358c8b0",
-        "nama": "MOCHAMAD IKHLASUL AKMAL",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358ca50",
-        "nama": "MOHAMMAD HABIBULLAH ZAINI YUKO",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358cc15",
-        "nama": "MOHAMMAD ZA'A BILLADUNIL FAUZI",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358cd98",
-        "nama": "MUHAMMAD HISYAM AL HAFIDZ",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358cf29",
-        "nama": "MUHAMMAD WILDAN AL RASYID",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358d0bb",
-        "nama": "NAWAF SYIHABUDDIN YAFIQ",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358d246",
-        "nama": "YAQDHAN FAWAZ FATIH PUTRA S",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358d3e0",
-        "nama": "ZIDAN HAEDAR RAFIQ",
-        "program": "12CI",
-        "kelas": "B",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358d575",
-        "nama": "AHMED TSALITS ALFAREZY",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358d6fc",
-        "nama": "AL FACHRI FIRMANSYAMSI",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358d88e",
-        "nama": "ARDIAN NADHIF CHOIRILLAH",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358da1f",
-        "nama": "HAEKAL FAHRIZA ARWANI",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358dbaf",
-        "nama": "HAIKAL ATHOILLAH",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358dd44",
-        "nama": "M. ROYYAN ADINNATA",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358ded9",
-        "nama": "MUH.AGUNG DWI PRASTYO",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358e07d",
-        "nama": "MUHAMMAD ADDAKHIL",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358e21c",
-        "nama": "MUHAMMAD TAUFIK HARDI PURNOMO",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358e3c0",
-        "nama": "WICAKSONO ABIY SAREYNARD LUCKY ISKANDAR",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358e550",
-        "nama": "YOGA RAMADHAN PRATAMA",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358e6eb",
-        "nama": "TRIYULLAH",
-        "program": "12CI",
-        "kelas": "C",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358e888",
-        "nama": "FADHIL ALAUDDIN EL ASYKARI",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358ea27",
-        "nama": "JUNDA MUHAMMAD WAFDA MAULANA",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358ebc8",
-        "nama": "KENZI ZAIDAN FAWWAZ ZUHAYR",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358ed6a",
-        "nama": "MOHAMMAD NABILUR ROHMAN",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358eeff",
-        "nama": "MUH. QOLBI ZAKI",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358f0a0",
-        "nama": "MUHAMMAD ARSHAD FARRAS",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358f247",
-        "nama": "MUHAMMAD DU DEVA FAWWAZ",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358f3dd",
-        "nama": "MUHAMMAD FADHEL HIBBAN FAROSA",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358f57d",
-        "nama": "MUHAMMAD HILALU AHYA'",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358f71d",
-        "nama": "MUHAMMAD IBRA MUFID",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358f8b6",
-        "nama": "MUHAMMAD JULIO ABDI PRAMANA",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358faa4",
-        "nama": "MUHAMMAD MUZAKKY UNAIS",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358fc4a",
-        "nama": "MUHAMMAD NAJWAN ALIFIANSYAH",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358fde6",
-        "nama": "MUHAMMAD TEGUH ARDHI FIRMANSYAH",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e358ff80",
-        "nama": "RAYHAN AZRIEL RAMADHAN",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35901b2",
-        "nama": "ZACHARIASZ ZAINAL ZAEVIETH",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3590385",
-        "nama": "ZIDNI ALFIN MUBAROK",
-        "program": "12CI",
-        "kelas": "D",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3590c94",
-        "nama": "ADELIA NURUL ATHIFAH",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3590e6a",
-        "nama": "AIDAH TAJ ALIYYAH",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3591076",
-        "nama": "AINUS SYAFA’ATUS SHOLIHAH",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3591335",
-        "nama": "ALEXA SALWA NAVICSA",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35914f0",
-        "nama": "ALICIA HILYATUN NISAK",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35916b4",
-        "nama": "ALMIRA AZZAHRA",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359188b",
-        "nama": "ALODIA MAYLASYIFA SADUWARTI",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3591a73",
-        "nama": "AULIA FITRIYAH UL HAQ",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3591c2b",
-        "nama": "BAHIYYATUL HIKMAH AL GHULAMI",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3595641",
-        "nama": "ANGELIKA NUR SAVICKA",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3595836",
-        "nama": "ANNISA AL HIDAYATI NAIMAH",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35959ed",
-        "nama": "ATHIYYA EMILYA HAQQIE RIZALI",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3595b9c",
-        "nama": "AULIA NURAZIZAH SULISTYO",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3595d57",
-        "nama": "AURELIA EKA FITRI HARIYANTO",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3595f12",
-        "nama": "AZZAHRA NAJWA ZAFIRAH",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3596131",
-        "nama": "GHUMAISHA ARUM ALFAHMA ROBBANI",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35962f4",
-        "nama": "HAIFA AISH FAIHA",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": ""
-    },
-    {
-        "id": "p68d11e359649f",
-        "nama": "IIS ZAMZAMIYAH",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359665e",
-        "nama": "VERLITA NINDYA KIRANA",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3596810",
-        "nama": "MUFTI AULA MIHARU WALUYO",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35969cd",
-        "nama": "AURA DIANANDA PUTRI SUTAMTO",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3596b75",
-        "nama": "AURELLYA PUTRI NOVITANINGRUM",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3596d44",
-        "nama": "AZKA LARASATY",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3596f0c",
-        "nama": "CINTA PUTRI NURAINI",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35970bd",
-        "nama": "CITRA PERMATA JUNIAR",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35972ad",
-        "nama": "DESY PUTRI RAHMAHADI",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": ""
-    },
-    {
-        "id": "p68d11e35974ee",
-        "nama": "DIZA EQUEENNA NASYA HAFAIRAH",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "DURRATUL WIDA HERA SAPUTRI",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3597883",
-        "nama": "DURROTUT TAQIYYAH",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3597a33",
-        "nama": "ELZA ASHIF ZUBAID BAL FAQIH",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3597beb",
-        "nama": "JUNDA AMIRA ABDALLA",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3597db0",
-        "nama": "KAILILA HASNA SALIMAH",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3597f5f",
-        "nama": "KALYLA IVENA AZHAR",
-        "program": "12CI",
-        "kelas": "H",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359811b",
-        "nama": "ALFI KAMILITA PUTRI",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3598303",
-        "nama": "ALIFIAH LOVELYNA PUTRI",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35986bb",
-        "nama": "ANDIN NASYWA DAMADEWANI",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359894e",
-        "nama": "BILQIS ZARINA PUTRI",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3598b77",
-        "nama": "DEVIKA KAILATUR ROHMAH",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3598d5f",
-        "nama": "FAUZIYYAH ARIKAH",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3598f42",
-        "nama": "GISKA LATISYA ALYA",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359911f",
-        "nama": "ILMIRA SYARIFA FAIZA",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35992ef",
-        "nama": "IMRAA ANGEL ALYA",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35994bc",
-        "nama": "NABIILAH AZZAH FAIRUZ NAURAH RAYYANI",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3599680",
-        "nama": "NUR TSABITA ZAHRA",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3599843",
-        "nama": "SAFIRA RIZKI ISTADY",
-        "program": "12CI",
-        "kelas": "PUTRI",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3599a0f",
-        "nama": "SAILA ALFAUS SIWI",
-        "program": "12CI",
-        "kelas": "I",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3599bc9",
-        "nama": "ALMIRA WIRDATUL NINGRUM",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3599d8e",
-        "nama": "AMANDA KIRANA SABITAH",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3599f53",
-        "nama": "EVELYN ANDYRA PUTRI",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359a123",
-        "nama": "LAURA SEPTHALITA RATUSYAH HAKIM",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359a2dd",
-        "nama": "LEVONA PUALANI AZWARIYAH",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359a4a3",
-        "nama": "LOVELY RAMADHANI MIXTA",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359a66a",
-        "nama": "MAHARANI PUTRI RAMADHANI",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359a834",
-        "nama": "MAHESWARI BELVA NUR AQILA",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359a9ff",
-        "nama": "MAKHDIYYATUL MAHBUBAH",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359abce",
-        "nama": "MILA RAHMAWATI",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359ad99",
-        "nama": "MOZZA CALLYSTA AMINUDIN",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359af65",
-        "nama": "MUTIARA PUTRI RAHMA",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359b130",
-        "nama": "NABILA RIZQI AMALIA",
-        "program": "12CI",
-        "kelas": "J",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359b2fd",
-        "nama": "AMEL VERLYANA",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359b4ce",
-        "nama": "KARINA CAHYA NOVELINE",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359b710",
-        "nama": "KHANSA DZAKIYATUR AZMEI",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359b8f0",
-        "nama": "KHARISMA CAHAYA PUTRI",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359bac0",
-        "nama": "MUMTAZ SYAUQINA QUEEN",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359bc8f",
-        "nama": "NABILA SHAFIRA",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359be61",
-        "nama": "NADIA AMALIA",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359c036",
-        "nama": "NAHDA BUNGA ATIKAH",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359c207",
-        "nama": "NAILA AISYAH PUTRI NAJA",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359c3e7",
-        "nama": "NANDA NUR FISQASYAH",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359cc2e",
-        "nama": "NAYLA MISBAKHUN NISA",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359d0bc",
-        "nama": "NAYLA SASI KIRANA",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359d292",
-        "nama": "VEMIYELA GRESYA NANDA ERICA",
-        "program": "12CI",
-        "kelas": "K",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359d46a",
-        "nama": "ANGGIE AMELIA PUTRI",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359d649",
-        "nama": "BANOWATI JELITA LIAZA PUTRI",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359d8a3",
-        "nama": "BARO'ATUS SA'ADAH",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359daaf",
-        "nama": "DAVINA CALLISTA AZALIA PUTRI",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359dc8e",
-        "nama": "MOZA ALINA SALSABILA",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "-",
-        "jurusan": "MA01"
-    },
-    {
-        "id": "p68d11e359de68",
-        "nama": "PUTRI ZAHRANI",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359e050",
-        "nama": "RAISSA SHANTIKA ASTY",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359e22d",
-        "nama": "RAYHANA LITTA AROFU",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359e40b",
-        "nama": "RIFADZATUS SHOLIKHAH",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359e600",
-        "nama": "RIZQIANDA NURUL INSAN",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359e7ec",
-        "nama": "SABRINA SEKAR RAHMADHANI",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359e9da",
-        "nama": "ZAKIA 'AISYAH EL RAHMA HALIS",
-        "program": "12CI",
-        "kelas": "L",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359ebbe",
-        "nama": "EROWATI ANGGUN LIAZA PUTRI",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359edbf",
-        "nama": "KIARRA NABIHA MAHESWARA",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359efda",
-        "nama": "LAILATUN NAZLA AR RAHMAH",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359f1ae",
-        "nama": "NABILLA ALYA NIBRAS",
-        "program": "12CI",
-        "kelas": "",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359f38d",
-        "nama": "SAFFANAH ADILA HANIFAH",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359f61c",
-        "nama": "SAKIRA AULIA HUSNAH",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359f88f",
-        "nama": "SALSA HIDAYATUS SA'ADAH",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359fa7c",
-        "nama": "SHAFIRA IHYANNA AZKA MUFIDA",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359fc83",
-        "nama": "SHERLY AULIA AZZAHRA",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e359fe6d",
-        "nama": "SHEYLA KAMILA MURSHALIN",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0052",
-        "nama": "SITI KHOLIFAH HIDAYATULLAH",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0235",
-        "nama": "SITI SARAH MAULIDA",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a041d",
-        "nama": "SYEEVANIA AIDAH SAFITRI",
-        "program": "12CI",
-        "kelas": "M",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ALIVIA RAHMATIN KHASANAH",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ALIYA FAUZIAH SHOODA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ANGELINA RAMADHANI PUTRI AFTONI",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "AQILAH LEILANI TRINITA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ATIKA DWI SHINTA DEWI",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "CHIQUITA ANGEL",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "DEVINTA CITRA RAIHANA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "DHAFAA SATYA WARDHANA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "FARAH AZZHAFIRRAH",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "FELIN TRINITA SARI",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "FINA AKMALIA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "IMELDA DWI FEBRIANTI",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "KHANSA NUR AVRIL RIANTI",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "LEILANY ANASTIA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35ad20694",
-        "nama": "AMINNUR HANIFAH IZZATI",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e3521d20694",
-        "nama": "ALISA HELDA WARDHANI",
-        "program": "12CI",
-        "kelas": "G",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "LUCKY DWI LESTARI",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "LYANTANIA AZARIA FIRDAUSY",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "MUTIARA ITSNA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "NAJILA NAZWA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "NASYWA ZAHARA RAHMAN",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "NAYLA ZAKIYATUN NISA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "NEYSA SHANA RAHMANIA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "QUEENA'IMECA JANNATIN 'ALIYAH SUBIYANTORO",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SYAFA ALWANUNNAJWA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SYAFIRA GREVINA SARI",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SYIFAUL JANNATUN NASIHIN",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "TSANIA AFIFAH",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ULIN NIHAYA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ZAHROTUL AINI RAHMADILLAH",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ADINDA FATIMAH NAZWA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "AHSANTI QONITATUN",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ALIFIATUZ ZUHRO",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ANINDYA NOR ISLAMIYAH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ANISATUL ULA PUTRI HANIDA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ANNELIST ASHITA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "AULIA RIZQY KAFFAH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "AULIA RIZQY KAFFAH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "AURELIA KHALIISHAH PUTRI",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "DHANIYAH LAYLATUZ ZAHRAH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "DURRIYATUN NABILAH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "FATCHIYATUS SABILA AZ-ZAHRA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "FATIMAH AZ - ZAHRA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "FIKA NAILUL IZZA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ILYANA TADZKIRATUN NUSHA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "JESIKA PARAMITA KENCANA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "MUTIARA LAILATUL P",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "RAHMAH HIDAYATUN NISA'",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "RAISYA AULIA BARIROH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ROSYADA NAILA AZIZAH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SABRINA SHAFWAH AULIA RAMADANI",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SAFIRA AURELIA NAFISAH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SAHNAZ TAHTA ISLAMI DZIKRILLAH ROHMAD",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SHEILATUL JANNAH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SILMY KHAFIDHOTUS SALSABILLA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SUCI AYUDYASARI",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "SYAFIRA KURNIA ANISAH",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "WINDA SURYA LESTARI",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35a0694",
-        "nama": "ZAHROTUSSYIFA M. N",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "CELLOMITHA MARSYA AZZAHRA",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "CINTA KHANZA ALMIRAH HARIADI",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "EKI MARSA MUTIARA RAMADHANI",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "JANEETA KHANSA AHNAFARAH",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "JASMINE XHIAN ADHWA CLHEMIRA",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "JIHAN AQIILAH BILQIS",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "NAURA NAJLA FIRDAUS",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "NAYLA IKRIMA YUNIA",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "NAYLA LU'LU'IL MAKNUN",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "NIKMATUL LAILI",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "NIRWASITA MAHESWARI",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "NURLILA SUCI MUFIDA",
-        "program": "12CI",
-        "kelas": "E",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "ALICYA AISYATUL MAHBUBAH",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "AZZAHRA RIZQIKA RAMADHANI",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "DIVA ESTIANTI FLORESITA",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "EVI NUR AFIANI EFENDI",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": " FATICHA ZAHWA ALIYA",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "FITRI KHAIRUNNISA AMALIYAH",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "FIZA DWI FORTUNA",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "GHINA ALYA ZAHIRA",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "NATASYA NABILA PUTRI",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "NAURA ISHFANNY",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "NURSI AYU DWI ULLITASARI",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "OKTAV AULY IRKHAMIYAH",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "PUTRI AISYAH MAULIDA",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "PUTRI ARISTA BELINDA YULIYANTO",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "PUTRI DWI LINTANG MERIAN LESTARI",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "SARAH AMIRAH NABIL",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "SUAIBATUL ISLAMIA",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "VANYA EDIRA FARIZA",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "YEONALA AISYAH SAVITRI",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "ZAKIA AMELIA IFADA",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35976c8",
-        "nama": "ZALFA' NUZATUL FIKRAH",
-        "program": "12CI",
-        "kelas": "F",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11e35972c8",
-        "nama": "ADIFA ALGIE THUFAILA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d11235976c8",
-        "nama": "FITRIDZAT ADZARA ZAHWA",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68121e35976c8",
-        "nama": "TIARA OCHA RD",
-        "program": "12EXC",
-        "kelas": "C1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d17e35976c8",
-        "nama": "CINDRAWATI PARIKHATULLA",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d17e35976c8",
-        "nama": "HASNA FARRAHATUS",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d17e35976c8",
-        "nama": "ROMADANIATUS",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d17e35976c8",
-        "nama": "NIDAUL HASANAH A",
-        "program": "12EXC",
-        "kelas": "D1",
-        "ma": "MA01",
-        "gender": "PUTRI",
-        "jurusan": "-",
-        "profile": null
-    },
-    {
-        "id": "p68d91355167ff",
-        "nama": "bayu",
-        "program": "12CI",
-        "kelas": "A",
-        "ma": "MA01",
-        "gender": "PUTRA",
-        "jurusan": "-"
-    },
-    {
-        "id": "p68d9136a1ca3f",
-        "nama": "Officia sit et repud",
-        "program": "12EXC",
-        "kelas": "QUIBUSDAMNAMOCCAEC",
-        "ma": "MA03",
-        "gender": "PUTRA",
-        "jurusan": "Voluptas dolore volu"
-    },
-    {
-        "id": "p68d91373b82c3",
-        "nama": "Sint non nulla dolo",
-        "program": "12CI",
-        "kelas": "BLANDITIISDICTACUL",
-        "ma": "MA03",
-        "gender": "PUTRI",
-        "jurusan": "Distinctio Dolor qu"
-    },
-    {
-        "id": "p68d913a2d84be",
-        "nama": "Perferendis velit s",
-        "program": "12CI",
-        "kelas": "TEMPOREALIQUAMNAM",
-        "ma": "MA03",
-        "gender": "PUTRA",
-        "jurusan": "Nam quas non sit ea"
-    }
+  {
+    "id": "p001",
+    "nama": "ABDURAHMAN MULKI",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p002",
+    "nama": "ACHMAD FAROUQ ZAMZAMI",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p003",
+    "nama": "ACTAR BINTANG RAMADHAN",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p004",
+    "nama": "ADITYA PUTRA PRAYOGA",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p005",
+    "nama": "AFIF EZZRA AL BUSTAMI",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p006",
+    "nama": "AHMAD YUSUF AL BAIHAQI",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p007",
+    "nama": "ALVARO NAUFAL",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p008",
+    "nama": "ARFAN NUR MAULANA",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p009",
+    "nama": "BINTANG ALANSKAR",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p010",
+    "nama": "BRENDI IZZUL HAQ",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p011",
+    "nama": "FAHRUL AHMAD FAUZI",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p012",
+    "nama": "FAIZ AHMAD MUBAROK",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p013",
+    "nama": "FAREL PUTRA PRAYOGA",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p014",
+    "nama": "JAFITS ANKAA SYARIF",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p015",
+    "nama": "M DZAKWAN ASSADEL PURNOMO",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p016",
+    "nama": "M NABIL ZAHRON",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p017",
+    "nama": "M REVAND ARRAFI RACHMAN",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p018",
+    "nama": "MOCH NASRIL FIRDAUS",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p019",
+    "nama": "MOCHAMMAD HAFIT KURNIAWAN",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p020",
+    "nama": "MUKHAMAD SANTOSO WIBOWO",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p021",
+    "nama": "RAFAEL SANTOSO",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p022",
+    "nama": "RAFI FIRMANSYAH",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p024",
+    "nama": "AHMAD JUNDI ROBBANI",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p025",
+    "nama": "ANDI WAHYU BAKHITA",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p026",
+    "nama": "ARYANSYAH MAHENDRA",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-",
+    "foto": "uploads/p68d11e3587130/foto/foto_20250926_160455.jpeg",
+    "updated_at": 1758895495
+  },
+  {
+    "id": "p027",
+    "nama": "ASYROFUDIN",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p028",
+    "nama": "DAVIN AKBAR MAULANA",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p029",
+    "nama": "ESFANDIYAR GHOUZANI",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p030",
+    "nama": "FARHAN AUFA ARIFA",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p031",
+    "nama": "HABIBURAHMAN LUTHIN",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p032",
+    "nama": "KAHFID AHMAD",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p033",
+    "nama": "M ATIQUDDIN ARDIANSYAH",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p034",
+    "nama": "M AZKA TAZLIMY",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p035",
+    "nama": "M INAMULLAH ANNAFI",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p036",
+    "nama": "M WILDAN RIFKI ALWAFI",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p037",
+    "nama": "NAUFAL AFIF AL-HAKIN",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p038",
+    "nama": "RIZKY ANANDHITA ARIF",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p039",
+    "nama": "RIZKY IVAN MAULANA",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p040",
+    "nama": "TRAVIS KHAYRU AL GHOZALY",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-",
+    "updated_at": 1758895887
+  },
+  {
+    "id": "p041",
+    "nama": "WALIUDDIN IRFAN HADZIQ",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p042",
+    "nama": "HAKAM ABDILLAH",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA03",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p043",
+    "nama": "MUHAMMAD HANIF IRFANY",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA03",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p044",
+    "nama": "IFFAT NASWAN",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA03",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p045",
+    "nama": "ABID MUHAMMAD ASFARI",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p046",
+    "nama": "ACHMAD WILDAN SATRIA PRATAMA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p047",
+    "nama": "AHMAD AQNA AZKA ZAENAL ABIDIN",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p048",
+    "nama": "AHMAD BARIKI ALIE",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p049",
+    "nama": "ALDI MAULANA PAMUNGKAS ALI",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p050",
+    "nama": "ALDI SUHENDRA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p051",
+    "nama": "CHAESAR JULIANO SHELVA PRATAMA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p052",
+    "nama": "HABSYI AULIYA' PERMANA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p053",
+    "nama": "MUHAMMAD ZAKI MUNIF",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p054",
+    "nama": "MUHAMMAD BINTANG WAHYU WARDHANA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p055",
+    "nama": "PRADIPTA RIZKY WIRATARA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p056",
+    "nama": "DIMAS RIZKI FIRMANSYAH",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p057",
+    "nama": "DZAHIR SAMUEL YUSSUF",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p058",
+    "nama": "DZAKI JUMAYYIL SYAFI'I",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA03",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p059",
+    "nama": "FAJARUR ROHMANUL ALIM",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p060",
+    "nama": "ANDHIKA AKBAR NUGRAHA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p061",
+    "nama": "ARTHA DIKMA PRATAMA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p062",
+    "nama": "BINTANG AZMY FARROS",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p063",
+    "nama": "CAHYO SYAHLEVI DWI WARDANA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "-",
+    "jurusan": "MA01"
+  },
+  {
+    "id": "p064",
+    "nama": "DANI AHMAD YASIR ALFARIZQI",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p065",
+    "nama": "DIMAS MAULANA ZAIN FAIRUZ",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p066",
+    "nama": "FARUQ ARRAFFI RUSYDI HARTONO",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p067",
+    "nama": "GAYU NUR MUHAMMAD AKBARUDIN PUTRA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p068",
+    "nama": "HANIF AMRULLOH",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p069",
+    "nama": "ILHAM ASSIR WADA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p070",
+    "nama": "RAIHAN MAHARDIKA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p071",
+    "nama": "ABIY LAMYA RIZVI",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p072",
+    "nama": "FARREL ARYA MAHARDIKA",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p073",
+    "nama": "KHAFIF IBNU SAHREZA",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p074",
+    "nama": "M. BAHARI ALFIN",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p075",
+    "nama": "MANGGALA PUTRA SATYA ANANTA",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p076",
+    "nama": "YAQDHAN FAWAZ FATIH PUTRA S",
+    "program": "B",
+    "kelas": "PUTRA",
+    "ma": "MA01",
+    "gender": "-",
+    "jurusan": "MA01"
+  },
+  {
+    "id": "p077",
+    "nama": "CARVALHO ZEFRAN SUBIYANTORO",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p078",
+    "nama": "DAFFA MANDALA PUTRA",
+    "program": "12CI",
+    "kelas": "A",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p079",
+    "nama": "MAVELLE YULFAHMI RIF'AT TURYOTO PUTRA",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p080",
+    "nama": "MOCH. AISYEN FALECHI ANDI MAKARIM",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p081",
+    "nama": "MOCH.YUSUF SYAHPUTRA",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p082",
+    "nama": "MOCHAMAD IKHLASUL AKMAL",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p083",
+    "nama": "MOHAMMAD HABIBULLAH ZAINI YUKO",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p084",
+    "nama": "MOHAMMAD ZA'A BILLADUNIL FAUZI",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p085",
+    "nama": "MUHAMMAD HISYAM AL HAFIDZ",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p086",
+    "nama": "MUHAMMAD WILDAN AL RASYID",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p087",
+    "nama": "NAWAF SYIHABUDDIN YAFIQ",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p088",
+    "nama": "YAQDHAN FAWAZ FATIH PUTRA S",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p089",
+    "nama": "ZIDAN HAEDAR RAFIQ",
+    "program": "12CI",
+    "kelas": "B",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p090",
+    "nama": "AHMED TSALITS ALFAREZY",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p091",
+    "nama": "AL FACHRI FIRMANSYAMSI",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p092",
+    "nama": "ARDIAN NADHIF CHOIRILLAH",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p093",
+    "nama": "HAEKAL FAHRIZA ARWANI",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p094",
+    "nama": "HAIKAL ATHOILLAH",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p095",
+    "nama": "M. ROYYAN ADINNATA",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p096",
+    "nama": "MUH.AGUNG DWI PRASTYO",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p097",
+    "nama": "MUHAMMAD ADDAKHIL",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p098",
+    "nama": "MUHAMMAD TAUFIK HARDI PURNOMO",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p099",
+    "nama": "WICAKSONO ABIY SAREYNARD LUCKY ISKANDAR",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p100",
+    "nama": "YOGA RAMADHAN PRATAMA",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p101",
+    "nama": "TRIYULLAH",
+    "program": "12CI",
+    "kelas": "C",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p102",
+    "nama": "FADHIL ALAUDDIN EL ASYKARI",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p103",
+    "nama": "JUNDA MUHAMMAD WAFDA MAULANA",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p104",
+    "nama": "KENZI ZAIDAN FAWWAZ ZUHAYR",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p105",
+    "nama": "MOHAMMAD NABILUR ROHMAN",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p106",
+    "nama": "MUH. QOLBI ZAKI",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p107",
+    "nama": "MUHAMMAD ARSHAD FARRAS",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p108",
+    "nama": "MUHAMMAD DU DEVA FAWWAZ",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p109",
+    "nama": "MUHAMMAD FADHEL HIBBAN FAROSA",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p110",
+    "nama": "MUHAMMAD HILALU AHYA'",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p111",
+    "nama": "MUHAMMAD IBRA MUFID",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p112",
+    "nama": "MUHAMMAD JULIO ABDI PRAMANA",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p113",
+    "nama": "MUHAMMAD MUZAKKY UNAIS",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p114",
+    "nama": "MUHAMMAD NAJWAN ALIFIANSYAH",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p115",
+    "nama": "MUHAMMAD TEGUH ARDHI FIRMANSYAH",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p116",
+    "nama": "RAYHAN AZRIEL RAMADHAN",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p117",
+    "nama": "ZACHARIASZ ZAINAL ZAEVIETH",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p118",
+    "nama": "ZIDNI ALFIN MUBAROK",
+    "program": "12CI",
+    "kelas": "D",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p119",
+    "nama": "ADELIA NURUL ATHIFAH",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p120",
+    "nama": "AIDAH TAJ ALIYYAH",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p121",
+    "nama": "AINUS SYAFA’ATUS SHOLIHAH",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p122",
+    "nama": "ALEXA SALWA NAVICSA",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p123",
+    "nama": "ALICIA HILYATUN NISAK",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p124",
+    "nama": "ALMIRA AZZAHRA",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p125",
+    "nama": "ALODIA MAYLASYIFA SADUWARTI",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p126",
+    "nama": "AULIA FITRIYAH UL HAQ",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p127",
+    "nama": "BAHIYYATUL HIKMAH AL GHULAMI",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p128",
+    "nama": "ANGELIKA NUR SAVICKA",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p129",
+    "nama": "ANNISA AL HIDAYATI NAIMAH",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p130",
+    "nama": "ATHIYYA EMILYA HAQQIE RIZALI",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p131",
+    "nama": "AULIA NURAZIZAH SULISTYO",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p132",
+    "nama": "AURELIA EKA FITRI HARIYANTO",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p133",
+    "nama": "AZZAHRA NAJWA ZAFIRAH",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p134",
+    "nama": "GHUMAISHA ARUM ALFAHMA ROBBANI",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p135",
+    "nama": "HAIFA AISH FAIHA",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": ""
+  },
+  {
+    "id": "p136",
+    "nama": "IIS ZAMZAMIYAH",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p137",
+    "nama": "VERLITA NINDYA KIRANA",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p138",
+    "nama": "MUFTI AULA MIHARU WALUYO",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p139",
+    "nama": "AURA DIANANDA PUTRI SUTAMTO",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p140",
+    "nama": "AURELLYA PUTRI NOVITANINGRUM",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p141",
+    "nama": "AZKA LARASATY",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p142",
+    "nama": "CINTA PUTRI NURAINI",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p143",
+    "nama": "CITRA PERMATA JUNIAR",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p144",
+    "nama": "DESY PUTRI RAHMAHADI",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": ""
+  },
+  {
+    "id": "p145",
+    "nama": "DIZA EQUEENNA NASYA HAFAIRAH",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p146",
+    "nama": "DURRATUL WIDA HERA SAPUTRI",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p147",
+    "nama": "DURROTUT TAQIYYAH",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p148",
+    "nama": "ELZA ASHIF ZUBAID BAL FAQIH",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p149",
+    "nama": "JUNDA AMIRA ABDALLA",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p150",
+    "nama": "KAILILA HASNA SALIMAH",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p151",
+    "nama": "KALYLA IVENA AZHAR",
+    "program": "12CI",
+    "kelas": "H",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p152",
+    "nama": "ALFI KAMILITA PUTRI",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p153",
+    "nama": "ALIFIAH LOVELYNA PUTRI",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p154",
+    "nama": "ANDIN NASYWA DAMADEWANI",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p155",
+    "nama": "BILQIS ZARINA PUTRI",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p156",
+    "nama": "DEVIKA KAILATUR ROHMAH",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p157",
+    "nama": "FAUZIYYAH ARIKAH",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p158",
+    "nama": "GISKA LATISYA ALYA",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p159",
+    "nama": "ILMIRA SYARIFA FAIZA",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p160",
+    "nama": "IMRAA ANGEL ALYA",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p161",
+    "nama": "NABIILAH AZZAH FAIRUZ NAURAH RAYYANI",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p162",
+    "nama": "NUR TSABITA ZAHRA",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p163",
+    "nama": "SAFIRA RIZKI ISTADY",
+    "program": "12CI",
+    "kelas": "PUTRI",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p164",
+    "nama": "SAILA ALFAUS SIWI",
+    "program": "12CI",
+    "kelas": "I",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p165",
+    "nama": "ALMIRA WIRDATUL NINGRUM",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p166",
+    "nama": "AMANDA KIRANA SABITAH",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p167",
+    "nama": "EVELYN ANDYRA PUTRI",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p168",
+    "nama": "LAURA SEPTHALITA RATUSYAH HAKIM",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p169",
+    "nama": "LEVONA PUALANI AZWARIYAH",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p170",
+    "nama": "LOVELY RAMADHANI MIXTA",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p171",
+    "nama": "MAHARANI PUTRI RAMADHANI",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p172",
+    "nama": "MAHESWARI BELVA NUR AQILA",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p173",
+    "nama": "MAKHDIYYATUL MAHBUBAH",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p174",
+    "nama": "MILA RAHMAWATI",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p175",
+    "nama": "MOZZA CALLYSTA AMINUDIN",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p176",
+    "nama": "MUTIARA PUTRI RAHMA",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p177",
+    "nama": "NABILA RIZQI AMALIA",
+    "program": "12CI",
+    "kelas": "J",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p178",
+    "nama": "AMEL VERLYANA",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p179",
+    "nama": "KARINA CAHYA NOVELINE",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p180",
+    "nama": "KHANSA DZAKIYATUR AZMEI",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p181",
+    "nama": "KHARISMA CAHAYA PUTRI",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p182",
+    "nama": "MUMTAZ SYAUQINA QUEEN",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p183",
+    "nama": "NABILA SHAFIRA",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p184",
+    "nama": "NADIA AMALIA",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p185",
+    "nama": "NAHDA BUNGA ATIKAH",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p186",
+    "nama": "NAILA AISYAH PUTRI NAJA",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p187",
+    "nama": "NANDA NUR FISQASYAH",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p188",
+    "nama": "NAYLA MISBAKHUN NISA",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p189",
+    "nama": "NAYLA SASI KIRANA",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p190",
+    "nama": "VEMIYELA GRESYA NANDA ERICA",
+    "program": "12CI",
+    "kelas": "K",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p191",
+    "nama": "ANGGIE AMELIA PUTRI",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p192",
+    "nama": "BANOWATI JELITA LIAZA PUTRI",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p193",
+    "nama": "BARO'ATUS SA'ADAH",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p194",
+    "nama": "DAVINA CALLISTA AZALIA PUTRI",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p195",
+    "nama": "MOZA ALINA SALSABILA",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "-",
+    "jurusan": "MA01"
+  },
+  {
+    "id": "p196",
+    "nama": "PUTRI ZAHRANI",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p197",
+    "nama": "RAISSA SHANTIKA ASTY",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p198",
+    "nama": "RAYHANA LITTA AROFU",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p199",
+    "nama": "RIFADZATUS SHOLIKHAH",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p200",
+    "nama": "RIZQIANDA NURUL INSAN",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p201",
+    "nama": "SABRINA SEKAR RAHMADHANI",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p202",
+    "nama": "ZAKIA 'AISYAH EL RAHMA HALIS",
+    "program": "12CI",
+    "kelas": "L",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p203",
+    "nama": "EROWATI ANGGUN LIAZA PUTRI",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p204",
+    "nama": "KIARRA NABIHA MAHESWARA",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p205",
+    "nama": "LAILATUN NAZLA AR RAHMAH",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p206",
+    "nama": "NABILLA ALYA NIBRAS",
+    "program": "12CI",
+    "kelas": "",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p207",
+    "nama": "SAFFANAH ADILA HANIFAH",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p208",
+    "nama": "SAKIRA AULIA HUSNAH",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p209",
+    "nama": "SALSA HIDAYATUS SA'ADAH",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p210",
+    "nama": "SHAFIRA IHYANNA AZKA MUFIDA",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p211",
+    "nama": "SHERLY AULIA AZZAHRA",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p212",
+    "nama": "SHEYLA KAMILA MURSHALIN",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p213",
+    "nama": "SITI KHOLIFAH HIDAYATULLAH",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p214",
+    "nama": "SITI SARAH MAULIDA",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p215",
+    "nama": "SYEEVANIA AIDAH SAFITRI",
+    "program": "12CI",
+    "kelas": "M",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p216",
+    "nama": "ALIVIA RAHMATIN KHASANAH",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p217",
+    "nama": "ALIYA FAUZIAH SHOODA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p218",
+    "nama": "ANGELINA RAMADHANI PUTRI AFTONI",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p219",
+    "nama": "AQILAH LEILANI TRINITA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p220",
+    "nama": "ATIKA DWI SHINTA DEWI",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p221",
+    "nama": "CHIQUITA ANGEL",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p222",
+    "nama": "DEVINTA CITRA RAIHANA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p223",
+    "nama": "DHAFAA SATYA WARDHANA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p224",
+    "nama": "FARAH AZZHAFIRRAH",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p225",
+    "nama": "FELIN TRINITA SARI",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p226",
+    "nama": "FINA AKMALIA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p227",
+    "nama": "IMELDA DWI FEBRIANTI",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p228",
+    "nama": "KHANSA NUR AVRIL RIANTI",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p229",
+    "nama": "LEILANY ANASTIA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p230",
+    "nama": "AMINNUR HANIFAH IZZATI",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p231",
+    "nama": "ALISA HELDA WARDHANI",
+    "program": "12CI",
+    "kelas": "G",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p232",
+    "nama": "LUCKY DWI LESTARI",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p233",
+    "nama": "LYANTANIA AZARIA FIRDAUSY",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p234",
+    "nama": "MUTIARA ITSNA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p235",
+    "nama": "NAJILA NAZWA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p236",
+    "nama": "NASYWA ZAHARA RAHMAN",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p237",
+    "nama": "NAYLA ZAKIYATUN NISA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p238",
+    "nama": "NEYSA SHANA RAHMANIA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p239",
+    "nama": "QUEENA'IMECA JANNATIN 'ALIYAH SUBIYANTORO",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p240",
+    "nama": "SYAFA ALWANUNNAJWA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p241",
+    "nama": "SYAFIRA GREVINA SARI",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p242",
+    "nama": "SYIFAUL JANNATUN NASIHIN",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p243",
+    "nama": "TSANIA AFIFAH",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p244",
+    "nama": "ULIN NIHAYA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p245",
+    "nama": "ZAHROTUL AINI RAHMADILLAH",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p246",
+    "nama": "ADINDA FATIMAH NAZWA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p247",
+    "nama": "AHSANTI QONITATUN",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p248",
+    "nama": "ALIFIATUZ ZUHRO",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p249",
+    "nama": "ANINDYA NOR ISLAMIYAH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p250",
+    "nama": "ANISATUL ULA PUTRI HANIDA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p251",
+    "nama": "ANNELIST ASHITA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p252",
+    "nama": "AULIA RIZQY KAFFAH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p253",
+    "nama": "AULIA RIZQY KAFFAH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p254",
+    "nama": "AURELIA KHALIISHAH PUTRI",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p255",
+    "nama": "DHANIYAH LAYLATUZ ZAHRAH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p256",
+    "nama": "DURRIYATUN NABILAH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p257",
+    "nama": "FATCHIYATUS SABILA AZ-ZAHRA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p258",
+    "nama": "FATIMAH AZ - ZAHRA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p259",
+    "nama": "FIKA NAILUL IZZA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p260",
+    "nama": "ILYANA TADZKIRATUN NUSHA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p261",
+    "nama": "JESIKA PARAMITA KENCANA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p262",
+    "nama": "MUTIARA LAILATUL P",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p263",
+    "nama": "RAHMAH HIDAYATUN NISA'",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p264",
+    "nama": "RAISYA AULIA BARIROH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p265",
+    "nama": "ROSYADA NAILA AZIZAH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p266",
+    "nama": "SABRINA SHAFWAH AULIA RAMADANI",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p267",
+    "nama": "SAFIRA AURELIA NAFISAH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p268",
+    "nama": "SAHNAZ TAHTA ISLAMI DZIKRILLAH ROHMAD",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p269",
+    "nama": "SHEILATUL JANNAH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p270",
+    "nama": "SILMY KHAFIDHOTUS SALSABILLA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p271",
+    "nama": "SUCI AYUDYASARI",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p272",
+    "nama": "SYAFIRA KURNIA ANISAH",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p273",
+    "nama": "WINDA SURYA LESTARI",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p274",
+    "nama": "ZAHROTUSSYIFA M. N",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p275",
+    "nama": "CELLOMITHA MARSYA AZZAHRA",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p276",
+    "nama": "CINTA KHANZA ALMIRAH HARIADI",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p277",
+    "nama": "EKI MARSA MUTIARA RAMADHANI",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p278",
+    "nama": "JANEETA KHANSA AHNAFARAH",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p279",
+    "nama": "JASMINE XHIAN ADHWA CLHEMIRA",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p280",
+    "nama": "JIHAN AQIILAH BILQIS",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p281",
+    "nama": "NAURA NAJLA FIRDAUS",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p282",
+    "nama": "NAYLA IKRIMA YUNIA",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p283",
+    "nama": "NAYLA LU'LU'IL MAKNUN",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p284",
+    "nama": "NIKMATUL LAILI",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p285",
+    "nama": "NIRWASITA MAHESWARI",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p286",
+    "nama": "NURLILA SUCI MUFIDA",
+    "program": "12CI",
+    "kelas": "E",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p287",
+    "nama": "ALICYA AISYATUL MAHBUBAH",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p288",
+    "nama": "AZZAHRA RIZQIKA RAMADHANI",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p289",
+    "nama": "DIVA ESTIANTI FLORESITA",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p290",
+    "nama": "EVI NUR AFIANI EFENDI",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p291",
+    "nama": " FATICHA ZAHWA ALIYA",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p292",
+    "nama": "FITRI KHAIRUNNISA AMALIYAH",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p293",
+    "nama": "FIZA DWI FORTUNA",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p294",
+    "nama": "GHINA ALYA ZAHIRA",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p295",
+    "nama": "NATASYA NABILA PUTRI",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p296",
+    "nama": "NAURA ISHFANNY",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p297",
+    "nama": "NURSI AYU DWI ULLITASARI",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p298",
+    "nama": "OKTAV AULY IRKHAMIYAH",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p299",
+    "nama": "PUTRI AISYAH MAULIDA",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p300",
+    "nama": "PUTRI ARISTA BELINDA YULIYANTO",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p301",
+    "nama": "PUTRI DWI LINTANG MERIAN LESTARI",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p302",
+    "nama": "SARAH AMIRAH NABIL",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p303",
+    "nama": "SUAIBATUL ISLAMIA",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p304",
+    "nama": "VANYA EDIRA FARIZA",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p305",
+    "nama": "YEONALA AISYAH SAVITRI",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p306",
+    "nama": "ZAKIA AMELIA IFADA",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p307",
+    "nama": "ZALFA' NUZATUL FIKRAH",
+    "program": "12CI",
+    "kelas": "F",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p308",
+    "nama": "ADIFA ALGIE THUFAILA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p309",
+    "nama": "FITRIDZAT ADZARA ZAHWA",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p310",
+    "nama": "TIARA OCHA RD",
+    "program": "12EXC",
+    "kelas": "C1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p311",
+    "nama": "CINDRAWATI PARIKHATULLA",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p312",
+    "nama": "HASNA FARRAHATUS",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p313",
+    "nama": "ROMADANIATUS",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p314",
+    "nama": "NIDAUL HASANAH A",
+    "program": "12EXC",
+    "kelas": "D1",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p315",
+    "nama": "ACHMAD SYIBLI URIP AINUL YAQIN",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p316",
+    "nama": "ADINDA MAULIDATUR ROSYIDAH",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p317",
+    "nama": "ALYA NAJWA",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p318",
+    "nama": "ANGELA WIJAYA",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p319",
+    "nama": "ASHA KAYRANI ",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p320",
+    "nama": "AZZAM FARQULAITH ",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p321",
+    "nama": "DILA NADHIFA LAILATUL MUHDA",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p322",
+    "nama": "M FARHAN NAJIH",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p323",
+    "nama": "M. ABDUR ROZAK",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p324",
+    "nama": "M. FAHRI RASYAD N.H",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p325",
+    "nama": "M. ZAKKI SYAROVI",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p326",
+    "nama": "MUHAMMAD RASYA AKMAL ALAMSYAH",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p327",
+    "nama": "MUHAMMAD WAHIDY ISA",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p328",
+    "nama": "NAJMA TSUROYYA",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p329",
+    "nama": "NASYWA NAILILHIDA",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p330",
+    "nama": "REISYA ANAPHALIS JAVANICA KUSUMA",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p331",
+    "nama": "SIDNI ZAHRA MADINA",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p332",
+    "nama": "SURTIKANTI CANTIKA LIAZA PUTRI",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p333",
+    "nama": "ZASKIA SHAFA LANA MUFIDA",
+    "program": "12CI",
+    "kelas": "OVERSEAS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p334",
+    "nama": "CHERIL AZZARINA",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p335",
+    "nama": "DIVA ANINDITA MAR'ATUL CHARIMAH",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p336",
+    "nama": "DRAJAT VIRILE AL FATIH",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA03",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p337",
+    "nama": "ERLIN MAULIDA",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p338",
+    "nama": "FATIMATUZ ZAHRO",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p339",
+    "nama": "INDAH NUR FADILAH",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p340",
+    "nama": "M. ALAWY AMIR",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p341",
+    "nama": "MOCH.REYHAN NIZAM A",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p342",
+    "nama": "MUHAMMAD DELSHADI CHAVEZ M",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA03",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "p343",
+    "nama": "NASYWA INTIYAJUL HAQ",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p344",
+    "nama": "NEISYA DINDA AZZAHRA",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p345",
+    "nama": "NOVI PUTRICIA WINARSIH",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p346",
+    "nama": "RANI SARASECHAN",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p347",
+    "nama": "ROHMATUL ILMA AL-LUTFIA",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA01",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "p348",
+    "nama": "SYAIKHOTUR SARIFAH",
+    "program": "12CI",
+    "kelas": "KHOS",
+    "ma": "MA03",
+    "gender": "PUTRI",
+    "jurusan": "-"
+  },
+  {
+    "id": "P349",
+    "nama": "A IRFAN RAHMATULLAH",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "P350",
+    "nama": "YANWAR FADILAH",
+    "program": "12EXC",
+    "kelas": "A1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "P351",
+    "nama": "NUFAILA AFIF AL HAKIM",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  },
+  {
+    "id": "P352",
+    "nama": "M QOYS ARRUMI",
+    "program": "12EXC",
+    "kelas": "B1",
+    "ma": "MA01",
+    "gender": "PUTRA",
+    "jurusan": "-"
+  }
 ]

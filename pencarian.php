@@ -6,360 +6,275 @@
   <title>Pencarian Peserta</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    :root {
-      --bg1: #36642d;
-      --bg2: #26865e;
-      /* gradient hijau */
-      --accent: #20bf00;
-      --accent-2: #169300;
-      /* tombol */
-      --ink: #0f172a;
-      --muted: #64748b;
-      --line: #e5e7eb;
-      --card: #ffffff;
-    }
+   :root {
+   --bg1: #35537A;
+   --bg2: #0879CF;
+   --bg3: #00BEED;
+   --bg4: #343BBF;
+   --grad-main: linear-gradient(90deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4));
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+   --accent: #0879CF;
+   --accent-2: #343BBF;
+   --ink: #0f172a;
+   --muted: #64748b;
+   --line: #e5e7eb;
+   --card: #ffffff;
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
-      min-height: 100vh;
-      color: var(--ink);
-    }
+   --glow: 0 4px 18px rgba(8, 121, 207, .28);
+   --glow-strong: 0 8px 28px rgba(8, 121, 207, .38);
+   }
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
+   * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    .header {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(10px);
-      border-radius: 15px;
-      padding: 20px;
-      margin-bottom: 30px;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    }
+   body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: var(--grad-main);
+   min-height: 100vh;
+   color: var(--ink);
+   }
 
-    .topbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-    }
+   /* ====== Layout ====== */
+   .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
 
-    .brand {
-      font-size: 28px;
-      font-weight: 700;
-      background: linear-gradient(45deg, var(--bg1), var(--bg2));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
+   .header {
+   background: rgba(255, 255, 255, .95);
+   backdrop-filter: blur(10px);
+   border-radius: 15px;
+   padding: 20px;
+   margin-bottom: 30px;
+   box-shadow: 0 8px 32px rgba(0, 0, 0, .08);
+   }
 
-    .actions {
-      display: flex;
-      gap: 12px;
-    }
+   .topbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+   }
 
-    .actions a {
-      padding: 10px 20px;
-      border-radius: 25px;
-      background: linear-gradient(45deg, var(--accent), var(--accent-2));
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(32, 191, 0, 0.3);
-    }
+   .brand {
+   font-size: 28px;
+   font-weight: 700;
+   background: var(--grad-main);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   }
 
-    .actions a:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(32, 191, 0, 0.4);
-    }
+   .actions { display: flex; gap: 12px; }
+   .actions a {
+   padding: 10px 20px;
+   border-radius: 25px;
+   background: linear-gradient(90deg, var(--accent), var(--accent-2));
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;
+   transition: all .25s ease;
+   box-shadow: var(--glow);
+   }
+   .actions a:hover { transform: translateY(-2px); box-shadow: var(--glow-strong); }
 
-    .search-title {
-      text-align: center;
-      font-size: 24px;
-      font-weight: 600;
-      color: var(--ink);
-      margin-bottom: 20px;
-    }
+   .search-title {
+   text-align: center;
+   font-size: 24px;
+   font-weight: 600;
+   color: var(--ink);
+   margin-bottom: 20px;
+   }
 
-    .navbar {
-      display: flex;
-      background: rgba(255, 255, 255, 0.9);
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      margin-bottom: 30px;
-    }
+   /* ====== Tabs (Program) ====== */
+   .navbar {
+   display: flex;
+   background: rgba(255, 255, 255, .9);
+   border-radius: 12px;
+   overflow: hidden;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, .08);
+   margin-bottom: 30px;
+   }
+   .nav-item {
+   flex: 1;
+   padding: 15px 20px;
+   text-align: center;
+   cursor: pointer;
+   font-weight: 600;
+   transition: all .25s ease;
+   background: transparent;
+   border: none;
+   color: var(--muted);
+   }
+   .nav-item.active {
+   background: linear-gradient(90deg, var(--bg2), var(--bg4));
+   color: #fff;
+   box-shadow: var(--glow);
+   }
+   .nav-item:hover:not(.active) {
+   background: rgba(8, 121, 207, .08);
+   color: var(--accent);
+   }
 
-    .nav-item {
-      flex: 1;
-      padding: 15px 20px;
-      text-align: center;
-      cursor: pointer;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      background: transparent;
-      border: none;
-      color: var(--muted);
-    }
+   /* ====== Filters ====== */
+   .filters-container {
+   background: rgba(255, 255, 255, .95);
+   backdrop-filter: blur(10px);
+   border-radius: 15px;
+   padding: 25px;
+   margin-bottom: 30px;
+   box-shadow: 0 8px 32px rgba(0, 0, 0, .08);
+   }
+   .filters-title { font-size: 18px; font-weight: 600; margin-bottom: 20px; color: var(--ink); }
+   .filters {
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 12px;
+   overflow-x: auto;
+   -webkit-overflow-scrolling: touch;
+   padding-bottom: 6px;
+   scrollbar-width: thin;
+   }
+   .filters::-webkit-scrollbar { height: 8px; }
+   .filters::-webkit-scrollbar-thumb { background: #c7d2fe; border-radius: 8px; }
+   .input-group { flex: 0 0 auto; min-width: 220px; }
 
-    .nav-item.active {
-      background: linear-gradient(45deg, var(--accent), var(--accent-2));
-      color: white;
-      box-shadow: 0 4px 15px rgba(32, 191, 0, 0.3);
-    }
+   .input, select {
+   width: 100%;
+   padding: 12px 16px;
+   border: 2px solid var(--line);
+   border-radius: 10px;
+   background: var(--card);
+   font-size: 14px;
+   transition: all .2s ease;
+   outline: none;
+   }
+   .input:focus, select:focus {
+   border-color: var(--accent);
+   box-shadow: 0 0 0 3px rgba(8, 121, 207, .15);
+   }
 
-    .nav-item:hover:not(.active) {
-      background: rgba(32, 191, 0, 0.1);
-      color: var(--accent);
-    }
+   .filter-actions {
+   display: flex;
+   gap: 10px;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   margin-top: 6px;
+   }
+   .btn {
+   padding: 12px 24px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   font-weight: 500;
+   transition: all .2s ease;
+   min-width: 100px;
+   }
+   .btn-reset { background: #f8f9fa; color: var(--muted); border: 2px solid var(--line); }
+   .btn-reset:hover { background: var(--line); transform: translateY(-1px); }
 
-    .filters-container {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(10px);
-      border-radius: 15px;
-      padding: 25px;
-      margin-bottom: 30px;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    }
+   /* ====== Results ====== */
+   .results-container {
+   background: rgba(255, 255, 255, .95);
+   backdrop-filter: blur(10px);
+   border-radius: 15px;
+   padding: 25px;
+   box-shadow: 0 8px 32px rgba(0, 0, 0, .08);
+   }
+   .results-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+   padding-bottom: 15px;
+   border-bottom: 2px solid #f1f3f4;
+   }
+   .results-title { font-size: 18px; font-weight: 600; color: var(--ink); }
+   .results-count {
+   background: linear-gradient(90deg, var(--bg2), var(--bg4));
+   color: #fff;
+   padding: 6px 12px;
+   border-radius: 20px;
+   font-size: 12px;
+   font-weight: 500;
+   }
 
-    .filters-title {
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 20px;
-      color: var(--ink);
-    }
+   /* ====== Card Peserta ====== */
+   .card {
+   background: var(--card);
+   border: 1px solid var(--line);
+   border-radius: 12px;
+   padding: 16px 20px;
+   margin-bottom: 15px;
+   transition: all .2s ease;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+   }
+   .card:hover {
+   transform: translateY(-2px);
+   box-shadow: 0 10px 28px rgba(0, 0, 0, .12);
+   border-color: rgba(8, 121, 207, .45);
+   }
+   .card-content { display: flex; flex-direction: column; gap: 8px; }
 
-    .filters {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
-      margin-bottom: 20px;
-    }
+   .card-info h3 {
+   font-size: 16px;
+   font-weight: 600;
+   color: var(--ink);
+   margin-bottom: 10px;
+   }
 
-    .input-group {
-      position: relative;
-    }
+   /* Baris meta kiri + tombol kanan */
+   .card-row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 12px;
+   }
+   .card-meta {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 12px;
+   font-size: 14px;
+   color: var(--muted);
+   }
+   .meta-item { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
 
-    .input, select {
-      width: 100%;
-      padding: 12px 16px;
-      border: 2px solid var(--line);
-      border-radius: 10px;
-      background: var(--card);
-      font-size: 14px;
-      transition: all 0.3s ease;
-      outline: none;
-    }
+   /* ====== Tombol Detail (kecil, kalem, pojok kanan) ====== */
+   .detail-btn {
+   padding: 4px 10px; /* kecil, tidak pajang */
+   font-size: 13px;
+   background: #fff;
+   border: 1px solid var(--accent);
+   color: var(--accent);
+   border-radius: 12px;
+   cursor: pointer;
+   transition: all .2s ease;
+   margin-left: auto; /* pastikan nempel kanan */
+   }
+   .detail-btn:hover { background: var(--accent); color: #fff; }
 
-    .input:focus, select:focus {
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px rgba(32, 191, 0, 0.1);
-    }
+   /* ====== Alerts / Empty ====== */
+   .alert {
+   background: rgba(255, 193, 7, .1);
+   border: 1px solid rgba(255, 193, 7, .35);
+   color: #856404;
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 500;
+   }
+   .loading {
+   background: rgba(8, 121, 207, .08);
+   border: 1px solid rgba(8, 121, 207, .28);
+   color: var(--accent-2);
+   }
+   .empty-state { text-align: center; padding: 40px 20px; }
+   .empty-state h3 { font-size: 18px; color: var(--muted); margin-bottom: 10px; }
+   .empty-state p { color: var(--muted); margin-bottom: 20px; }
 
-    .filter-actions {
-      display: flex;
-      gap: 10px;
-      justify-content: flex-end;
-      flex-wrap: wrap;
-    }
+   /* ====== Responsive ====== */
+   @media(max-width: 600px) {
+     .filters { flex-wrap: wrap; }
+     .card-row { flex-direction: column; align-items: flex-start; gap: 10px; }
+     .detail-btn { align-self: flex-end; } /* tetap di kanan saat stack */
+     }
 
-    .btn {
-      padding: 12px 24px;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      font-weight: 500;
-      transition: all 0.3s ease;
-      min-width: 100px;
-    }
-
-    .btn-reset {
-      background: #f8f9fa;
-      color: var(--muted);
-      border: 2px solid var(--line);
-    }
-
-    .btn-reset:hover {
-      background: var(--line);
-      transform: translateY(-1px);
-    }
-
-    .results-container {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(10px);
-      border-radius: 15px;
-      padding: 25px;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    }
-
-    .results-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      padding-bottom: 15px;
-      border-bottom: 2px solid #f1f3f4;
-    }
-
-    .results-title {
-      font-size: 18px;
-      font-weight: 600;
-      color: var(--ink);
-    }
-
-    .results-count {
-      background: linear-gradient(45deg, var(--accent), var(--accent-2));
-      color: white;
-      padding: 6px 12px;
-      border-radius: 20px;
-      font-size: 12px;
-      font-weight: 500;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 15px;
-      transition: all 0.3s ease;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    }
-
-    .card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-      border-color: var(--accent);
-    }
-
-    .card-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-
-    .card-info h3 {
-      font-size: 16px;
-      font-weight: 600;
-      color: var(--ink);
-      margin-bottom: 8px;
-    }
-
-    .card-meta {
-      color: var(--muted);
-      font-size: 14px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-
-    .meta-item {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
-
-    .detail-btn {
-      padding: 8px 20px;
-      background: linear-gradient(45deg, var(--accent), var(--accent-2));
-      color: white;
-      border: none;
-      border-radius: 20px;
-      cursor: pointer;
-      font-weight: 500;
-      transition: all 0.3s ease;
-      min-width: 80px;
-    }
-
-    .detail-btn:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 4px 15px rgba(32, 191, 0, 0.4);
-    }
-
-    .alert {
-      background: rgba(255, 193, 7, 0.1);
-      border: 1px solid rgba(255, 193, 7, 0.3);
-      color: #856404;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-      font-weight: 500;
-    }
-
-    .loading {
-      background: rgba(32, 191, 0, 0.1);
-      border: 1px solid rgba(32, 191, 0, 0.3);
-      color: var(--accent-2);
-    }
-
-    .empty-state {
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    .empty-state h3 {
-      font-size: 18px;
-      color: var(--muted);
-      margin-bottom: 10px;
-    }
-
-    .empty-state p {
-      color: var(--muted);
-      margin-bottom: 20px;
-    }
-
-    @media (max-width: 768px) {
-      .container {
-        padding: 15px;
-      }
-      
-      .filters {
-        grid-template-columns: 1fr;
-      }
-      
-      .topbar {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-      }
-      
-      .card-content {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-      
-      .filter-actions {
-        justify-content: center;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .brand {
-        font-size: 24px;
-      }
-      
-      .navbar {
-        flex-direction: column;
-      }
-      
-      .card-meta {
-        flex-direction: column;
-        gap: 8px;
-      }
-    }
   </style>
 </head>
 
@@ -367,7 +282,7 @@
   <div class="container">
     <div class="header">
       <div class="topbar">
-        <div class="brand">🎓 PTN MAI</div>
+        <div class="brand">PTN MAI</div>
         <div class="actions">
           <a href="dashboard.php">📊 Dashboard</a>
           <a href="api/logout.php">🚪 Keluar</a>
@@ -378,12 +293,8 @@
 
     <!-- Program tabs -->
     <div class="navbar" role="tablist" aria-label="Pilih Program">
-      <button class="nav-item active" id="tab-exc" role="tab" aria-selected="true">
-        🏆 12 EXCELLENT
-      </button>
-      <button class="nav-item" id="tab-ci" role="tab" aria-selected="false">
-        ⭐ 12 CERDAS ISTIMEWA
-      </button>
+      <button class="nav-item active" id="tab-exc" role="tab" aria-selected="true">🏆 12 EXCELLENT</button>
+      <button class="nav-item" id="tab-ci" role="tab" aria-selected="false">⭐ 12 CERDAS ISTIMEWA</button>
     </div>
 
     <!-- Filters -->
@@ -456,7 +367,7 @@
     let typingTimer;
     const STORE_KEY = 'PUB_FILTERS_V2';
 
-    // Updated Class Mapping - matching dashboard
+    // Kelas mapping
     const KELAS_MAP = {
       '12EXC': {
         'PUTRA': ['A1', 'B1', 'OVERSEAS', 'KHOS'],
@@ -524,7 +435,6 @@
       } catch {}
     }
 
-    // Updated event handlers to match dashboard behavior
     elGender.addEventListener('change', () => {
       updateKelas();
       saveFilters();
@@ -560,7 +470,7 @@
       statusBox.innerHTML = '';
       list.innerHTML = '';
       resultsCount.style.display = 'none';
-      
+
       const loading = document.createElement('div');
       loading.className = 'alert loading';
       loading.innerHTML = '⏳ Memuat data...';
@@ -595,11 +505,11 @@
 
     function render(items) {
       list.innerHTML = '';
-      
+
       // Update results count
       resultsCount.textContent = `${items.length} peserta`;
       resultsCount.style.display = 'block';
-      
+
       if (!items.length) {
         const empty = document.createElement('div');
         empty.className = 'empty-state';
@@ -613,7 +523,7 @@
         list.appendChild(empty);
         return;
       }
-      
+
       for (const d of items) {
         const div = document.createElement('div');
         div.className = 'card';
@@ -621,16 +531,18 @@
           <div class="card-content">
             <div class="card-info">
               <h3>👤 ${d.nama || '-'}</h3>
-              <div class="card-meta">
-                <span class="meta-item">🏆 ${d.program || '-'}</span>
-                <span class="meta-item">📚 Kelas ${d.kelas || '-'}</span>
-                <span class="meta-item">🏫 ${d.ma || '-'}</span>
-                ${d.jurusan ? `<span class="meta-item">🎓 ${d.jurusan}</span>` : ''}
+              <div class="card-row">
+                <div class="card-meta">
+                  <span class="meta-item">🏆 ${d.program || '-'}</span>
+                  <span class="meta-item">📚 Kelas ${d.kelas || '-'}</span>
+                  <span class="meta-item">🏫 ${d.ma || '-'}</span>
+                  ${d.jurusan ? `<span class="meta-item">🎓 ${d.jurusan}</span>` : `<span class="meta-item">🎓 -</span>`}
+                </div>
+                <button class="detail-btn" onclick="location.href='detail_public.php?id=${encodeURIComponent(d.id)}'">
+                  👁️ Detail
+                </button>
               </div>
             </div>
-            <button class="detail-btn" onclick="location.href='detail_public.php?id=${encodeURIComponent(d.id)}'">
-              👁️ Detail
-            </button>
           </div>
         `;
         list.appendChild(div);

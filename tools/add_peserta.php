@@ -5,16 +5,25 @@ require_super_admin();
 ?>
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah Peserta</title>
     <style>
         :root {
-            --bg1: #36642d;
-            --bg2: #26865e;
-            --accent: #20bf00;
-            --accent-2: #169300;
+            /* === Palette biru === */
+            --bg1: #35537A;
+            /* endpoint 1 */
+            --bg2: #2C33A8;
+            /* endpoint 2 untuk background halaman */
+            --grad-main: linear-gradient(90deg, #35537A, #076bbb, #00A9D1, #2C33A8);
+
+            /* aksen solid (buat border/focus, turunan dari gradien) */
+            --accent: #076bbb;
+            --accent-2: #2C33A8;
+
+            /* UI umum */
             --ink: #0f172a;
             --muted: #64748b;
             --line: #e5e7eb;
@@ -29,6 +38,7 @@ require_super_admin();
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* background tetap 2-color biar adem, ambil endpoint gradien */
             background: linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
             min-height: 100vh;
             color: var(--ink);
@@ -41,14 +51,16 @@ require_super_admin();
             background: var(--card);
             border-radius: 12px;
             padding: 30px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
+            /* dulu hijau → sekarang pakai biru endpoint biar konsisten tapi tetap kalem */
             color: var(--bg1);
             margin-bottom: 30px;
             text-align: center;
             font-size: 28px;
+            background: none;
         }
 
         .form-group {
@@ -62,22 +74,27 @@ require_super_admin();
             color: var(--ink);
         }
 
-        input, select {
+        input,
+        select {
             width: 100%;
             padding: 12px 16px;
             border: 2px solid var(--line);
             border-radius: 8px;
             font-size: 16px;
-            transition: border-color 0.3s ease;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            outline: none;
         }
 
-        input:focus, select:focus {
-            outline: none;
+        input:focus,
+        select:focus {
             border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(7, 107, 187, 0.15);
+            /* ring biru lembut */
         }
 
         .btn {
-            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+            /* tombol utama pakai gradien biru kamu */
+            background: var(--grad-main);
             color: white;
             border: none;
             padding: 14px 30px;
@@ -86,17 +103,20 @@ require_super_admin();
             border-radius: 8px;
             cursor: pointer;
             width: 100%;
-            transition: transform 0.2s ease;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 6px 18px rgba(7, 107, 187, 0.25);
         }
 
         .btn:hover {
             transform: translateY(-2px);
+            box-shadow: 0 10px 26px rgba(7, 107, 187, 0.35);
         }
 
         .btn:disabled {
             opacity: 0.6;
             cursor: not-allowed;
             transform: none;
+            box-shadow: none;
         }
 
         .alert {
@@ -106,6 +126,7 @@ require_super_admin();
             display: none;
         }
 
+        /* biarkan sukses tetap hijau & error tetap merah (semantik) */
         .alert.success {
             background: #d1fae5;
             color: #065f46;
@@ -119,12 +140,13 @@ require_super_admin();
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Tambah Peserta</h1>
-        
+
         <div id="alert" class="alert"></div>
-        
+
         <form id="pesertaForm">
             <div class="form-group">
                 <label for="nama">Nama *</label>
@@ -149,9 +171,7 @@ require_super_admin();
 
             <div class="form-group">
                 <label for="kelas">Kelas</label>
-                <select id="kelas" name="kelas">
-                    <!-- Options will be populated by JavaScript -->
-                </select>
+                <select id="kelas" name="kelas"></select>
             </div>
 
             <div class="form-group">
@@ -187,14 +207,9 @@ require_super_admin();
             const program = document.getElementById('program').value;
             const gender = document.getElementById('gender').value;
             const kelasSelect = document.getElementById('kelas');
-            
-            // Clear existing options
+
             kelasSelect.innerHTML = '';
-            
-            // Get appropriate class options
             const options = kelasOptions[program][gender];
-            
-            // Populate new options
             options.forEach(kelas => {
                 const option = document.createElement('option');
                 option.value = kelas;
@@ -210,15 +225,15 @@ require_super_admin();
         document.getElementById('program').addEventListener('change', updateKelasOptions);
         document.getElementById('gender').addEventListener('change', updateKelasOptions);
 
-        document.getElementById('pesertaForm').addEventListener('submit', async function(e) {
+        document.getElementById('pesertaForm').addEventListener('submit', async function (e) {
             e.preventDefault();
-            
+
             const submitBtn = document.getElementById('submitBtn');
-            const alert = document.getElementById('alert');
-            
+            const alertBox = document.getElementById('alert');
+
             submitBtn.disabled = true;
             submitBtn.textContent = 'Menyimpan...';
-            
+
             const formData = new FormData(this);
             const data = {
                 nama: formData.get('nama'),
@@ -228,25 +243,25 @@ require_super_admin();
                 gender: formData.get('gender'),
                 jurusan: formData.get('jurusan') || '-'
             };
-            
+
             try {
                 const response = await fetch('../api/peserta_save.php', {
                     method: 'POST',
                     headers: {
-                        'Content-Type': 'application/json',
+                        'Content-Type': 'application/json'
                     },
                     body: JSON.stringify(data)
                 });
-                
+
                 const result = await response.json();
-                
+
                 if (result.ok) {
-                    alert.className = 'alert success';
-                    alert.textContent = 'Peserta berhasil ditambahkan!';
-                    alert.style.display = 'block';
+                    alertBox.className = 'alert success';
+                    alertBox.textContent = 'Peserta berhasil ditambahkan!';
+                    alertBox.style.display = 'block';
                     this.reset();
-                    updateKelasOptions(); // Reset class options
-                    
+                    updateKelasOptions();
+
                     setTimeout(() => {
                         window.location.href = '../dashboard.php';
                     }, 1500);
@@ -254,18 +269,19 @@ require_super_admin();
                     throw new Error(result.error || 'Terjadi kesalahan');
                 }
             } catch (error) {
-                alert.className = 'alert error';
-                alert.textContent = 'Error: ' + error.message;
-                alert.style.display = 'block';
+                alertBox.className = 'alert error';
+                alertBox.textContent = 'Error: ' + error.message;
+                alertBox.style.display = 'block';
             }
-            
+
             submitBtn.disabled = false;
             submitBtn.textContent = 'Tambah Peserta';
-            
+
             setTimeout(() => {
-                alert.style.display = 'none';
+                alertBox.style.display = 'none';
             }, 5000);
         });
     </script>
 </body>
+
 </html>

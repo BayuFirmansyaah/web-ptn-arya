@@ -6,20 +6,26 @@
     "scope": { "program": "ALL" }
   },
   {
+    "username": "atiquddin",
+    "password_hash": "$2y$10$YQkuOv9TtFA3af/w3mQDwOEt3bVOXj69qqOFLZEEk3RjgD6EWuW8i",
+    "role": "super",
+    "scope": { "program": "ALL" }
+  },
+  {
     "username": "TIMPTN12EXCPI",
-    "password_hash": "$2y$10$cwUUCvpxvskUKMkWognruemnALOGomfsFx4oyTfkKXJGwuiDRJ1qu",
+    "password_hash": "$2y$10$j4XxfyBTJ8s2paEPY3XQme7eqZzOWwsRayT6mIDmfuKnWKNe09XEy",
     "role": "admin",
     "scope": { "program": "12EXC", "gender": "PUTRI" }
   },
   {
     "username": "TIMPTN12CIPA",
-    "password_hash": "$2y$10$fYWcdV1AgxYKfUsA6J6LoOm6UULsco.wIehNJ2IJ9T8LgVSaUsASa",
+    "password_hash": "$2y$10$zhj1OytAwNdG57yOpPCOJenC6.vrrk4DK5y4ciHfmxLvzoUwo7AO2",
     "role": "admin",
-    "scope": { "program": "12EXC", "gender": "PUTRA" }
+    "scope": { "program": "12CI", "gender": "PUTRA" }
   },
   {
     "username": "TIMPTN12CIPI",
-    "password_hash": "$2y$10$Zo.IPH4G8sUeFPlkNpE7pufXxYJNOw41/MsNDBZ9LAB/ZnCzb2mjy",
+    "password_hash": "$2y$10$T/zqI1utJO5nHErj3Q21lOPEONYELvIq54o9U0GkCFQFtwbq0qwTi",
     "role": "admin",
     "scope": { "program": "12CI", "gender": "PUTRI" }
   }
