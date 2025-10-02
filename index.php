@@ -5,10 +5,10 @@ if (is_admin()) { header('Location: dashboard.php'); exit; }
 // jika tidak ada data json di ./data * maka copykan dari file init /*.json
 $dataDir = __DIR__.'/data';
 if (!is_dir($dataDir)) { mkdir($dataDir, 0755, true); }
-foreach (['peserta','sertifikat','berkas'] as $f) {
+foreach (['peserta','sertifikat','berkas', 'admins'] as $f) {
   $fPath = "$dataDir/{$f}.json";
   if (!file_exists($fPath)) {
-    copy(__DIR__."/data/init/{$f}.json", $fPath);
+    copy(__DIR__."/init/{$f}.json", $fPath);
   }
 }
 
