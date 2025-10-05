@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Peserta</title>
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <style>
+        :root {
+            /* === Palette biru === */
+            --bg1: #35537A;
+            /* endpoint 1 */
+            --bg2: #2C33A8;
+            /* endpoint 2 untuk background halaman */
+            --grad-main: linear-gradient(90deg, #35537A, #076bbb, #00A9D1, #2C33A8);
+
+            /* aksen solid (buat border/focus, turunan dari gradien) */
+            --accent: #076bbb;
+            --accent-2: #2C33A8;
+
+            /* UI umum */
+            --ink: #0f172a;
+            --muted: #64748b;
+            --line: #e5e7eb;
+            --card: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* background tetap 2-color biar adem, ambil endpoint gradien */
+            background: linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
+            min-height: 100vh;
+            color: var(--ink);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--card);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            /* dulu hijau → sekarang pakai biru endpoint biar konsisten tapi tetap kalem */
+            color: var(--bg1);
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 28px;
+            background: none;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--ink);
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--line);
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            outline: none;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(7, 107, 187, 0.15);
+            /* ring biru lembut */
+        }
+
+        .btn {
+            /* tombol utama pakai gradien biru kamu */
+            background: var(--grad-main);
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 6px 18px rgba(7, 107, 187, 0.25);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 26px rgba(7, 107, 187, 0.35);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tambah Peserta</h1>
+
+        <form id="pesertaForm" method="POST" action="{{ route('dashboard.store') }}">
+            @csrf
+            <div class="form-group">
+                <label for="nama">Nama *</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="program">Program</label>
+                <select id="program" name="program">
+                    <option value="12EXC">12 EXCELLENT</option>
+                    <option value="12CI">12 CERDAS ISTIMEWA</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="PUTRA">PUTRA</option>
+                    <option value="PUTRI">PUTRI</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="kelas">Kelas</label>
+                <select id="kelas" name="kelas"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="ma">MA</label>
+                <select id="ma" name="ma">
+                    <option value="MA01">MA01</option>
+                    <option value="MA03">MA03</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="jurusan">Jurusan</label>
+                <input type="text" id="jurusan" name="jurusan" placeholder="Opsional">
+            </div>
+
+            <button type="submit" class="btn" id="submitBtn">Tambah Peserta</button>
+        </form>
+    </div>
+
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        const kelasOptions = {
+            '12EXC': {
+                'PUTRA': ['A1', 'B1', 'OVERSEAS', 'KHOS'],
+                'PUTRI': ['C1', 'D1', 'OVERSEAS', 'KHOS']
+            },
+            '12CI': {
+                'PUTRA': ['A', 'B', 'C', 'D', 'OVERSEAS', 'KHOS'],
+                'PUTRI': ['E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'OVERSEAS', 'KHOS']
+            }
+        };
+
+        function updateKelasOptions() {
+            const program = document.getElementById('program').value;
+            const gender = document.getElementById('gender').value;
+            const kelasSelect = document.getElementById('kelas');
+
+            kelasSelect.innerHTML = '';
+            const options = kelasOptions[program][gender];
+            options.forEach(kelas => {
+                const option = document.createElement('option');
+                option.value = kelas;
+                option.textContent = kelas;
+                kelasSelect.appendChild(option);
+            });
+        }
+
+        // Initialize on page load
+        updateKelasOptions();
+
+        // Update when program or gender changes
+        document.getElementById('program').addEventListener('change', updateKelasOptions);
+        document.getElementById('gender').addEventListener('change', updateKelasOptions);
+    </script>
+
+    {{-- tambahkan script dengan sweetalert untuk notifikasi  dengan cek session success --}}
+    <script>
+        @if (session('success'))
+            Swal.fire({
+            icon: 'success',
+            title: 'Berhasil!',
+            text: '{{ session('success') }}',
+            timer: 3000,
+            timerProgressBar: true,
+            showConfirmButton: false
+            }).then(() => {
+            window.location.href = '/dashboard';
+            });
+        @elseif (session('error'))
+            Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: '{{ session('error') }}',
+            confirmButtonText: 'OK',
+            confirmButtonColor: '#076bbb'
+            }).then(() => {
+            window.location.href = '/dashboard';
+            });
+        @endif
+    </script>
+</body>
+
+</html>
