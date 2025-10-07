@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
@@ -13,20 +14,20 @@ class AuthController extends Controller
 
     public function login(Request $request)
     {
-        $credentials = $request->only('username', 'password');
-
-        if (auth()->attempt($credentials)) {
+        $credentials = $request->only('name', 'password');
+        if (Auth::attempt($credentials)) {
             return redirect()->intended(route('home'));
         }
+        
 
         return back()->withErrors([
-            'username' => 'The provided credentials do not match our records.',
+            'name' => 'The provided credentials do not match our records.',
         ])->withInput();
     }
 
     public function logout(Request $request)
     {
-        auth()->logout();
+        Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 

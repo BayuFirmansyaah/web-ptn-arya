@@ -1,31 +1,31 @@
 [
   {
     "username": "aryansyahm._",
-    "password_hash": "$2y$10$E0qKaIHXNbxSotr08bqVvuWMRowO.WCkrBgTEYGC64aV1E8fF1bqm",
+    "password": "Ar7$nM3x9#Kp2L",
     "role": "super",
     "scope": { "program": "ALL" }
-  },
-  {
+    },
+    {
     "username": "atiquddin",
-    "password_hash": "$2y$10$YQkuOv9TtFA3af/w3mQDwOEt3bVOXj69qqOFLZEEk3RjgD6EWuW8i",
+    "password": "Qw8@vN5$Zt4Rx",
     "role": "super",
     "scope": { "program": "ALL" }
-  },
-  {
+    },
+    {
     "username": "TIMPTN12EXCPI",
-    "password_hash": "$2y$10$j4XxfyBTJ8s2paEPY3XQme7eqZzOWwsRayT6mIDmfuKnWKNe09XEy",
+    "password": "Hg9!Lm3&Bx7Yn",
     "role": "admin",
     "scope": { "program": "12EXC", "gender": "PUTRI" }
-  },
-  {
+    },
+    {
     "username": "TIMPTN12CIPA",
-    "password_hash": "$2y$10$zhj1OytAwNdG57yOpPCOJenC6.vrrk4DK5y4ciHfmxLvzoUwo7AO2",
+    "password": "Kp6#Wr2@Fz8Dt",
     "role": "admin",
     "scope": { "program": "12CI", "gender": "PUTRA" }
-  },
-  {
+    },
+    {
     "username": "TIMPTN12CIPI",
-    "password_hash": "$2y$10$T/zqI1utJO5nHErj3Q21lOPEONYELvIq54o9U0GkCFQFtwbq0qwTi",
+    "password": "Vn4$Jx9!Qm7Lt",
     "role": "admin",
     "scope": { "program": "12CI", "gender": "PUTRI" }
   }

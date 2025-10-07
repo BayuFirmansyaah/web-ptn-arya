@@ -282,7 +282,10 @@
                 <div class="brand">PTN MAI</div>
                 <div class="actions">
                     <a href="{{ route('dashboard') }}">📊 Dashboard</a>
-                    <a href="{{ route('logout') }}">🚪 Keluar</a>
+                    <form method="POST" action="{{ route('logout') }}" style="display: inline;">
+                        @csrf
+                        <button type="submit" style="padding: 10px 20px; border: none; border-radius: 25px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #fff; text-decoration: none; font-weight: 500; transition: all .25s ease; box-shadow: var(--glow); cursor: pointer;">🚪 Keluar</button>
+                    </form>
                 </div>
             </div>
             <div class="search-title">Pencarian Data Peserta</div>

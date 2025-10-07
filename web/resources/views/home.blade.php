@@ -720,7 +720,7 @@
                         <h5 class="footer-title">
                             <i class="fas fa-graduation-cap me-2"></i>PTN MAI
                         </h5>
-                        <p class="mb-4">Web resmi Tim PTN Madrasa Alyah Amanatuk Ummah pertama dibuat oleh generasi <a
+                        <p class="mb-4">Web resmi Tim PTN Madrasah Aliyah Amanatul Ummah pertama dibuat oleh generasi <a
                                 href="https://www.instagram.com/devthore_exc/" class="devthore-link">DEVTHORE</a>
                             yang
                             memberi informasi data dan berkas-berkas

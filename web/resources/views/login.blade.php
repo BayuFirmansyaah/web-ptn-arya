@@ -892,7 +892,7 @@
                 <form id="loginForm" class="form" method="POST" action="{{ route('login') }}" novalidate>
                     @csrf
                     <div class="field">
-                        <input id="username" name="username" class="input" placeholder=" " required autocomplete="username" />
+                        <input id="username" name="name" class="input" placeholder=" " required autocomplete="username" />
                         <label for="username" class="label">Username</label>
                     </div>
 
@@ -1025,62 +1025,6 @@
                     btnText.textContent = 'MASUK';
                 }
             }
-
-            // Handle form submission
-            form.addEventListener('submit', async (e) => {
-                e.preventDefault();
-                setLoading(true);
-
-                try {
-                    const formData = new FormData(form);
-                    
-                    const response = await fetch('{{ route("login") }}', {
-                        method: 'POST',
-                        body: formData,
-                        headers: {
-                            'X-Requested-With': 'XMLHttpRequest',
-                            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
-                        },
-                        credentials: 'same-origin'
-                    });
-
-                    const result = await response.json();
-
-                    if (response.ok && result.success) {
-                        // Success
-                        await Swal.fire({
-                            icon: 'success',
-                            title: 'Login Berhasil!',
-                            text: 'Selamat datang! Anda akan dialihkan ke dashboard.',
-                            showConfirmButton: false,
-                            timer: 1500,
-                            timerProgressBar: true
-                        });
-                        
-                        window.location.href = result.redirect || '{{ route("dashboard") }}';
-                    } else {
-                        // Error
-                        await Swal.fire({
-                            icon: 'error',
-                            title: 'Login Gagal!',
-                            text: result.message || 'Username atau password salah. Silakan coba lagi.',
-                            confirmButtonText: 'Coba Lagi',
-                            confirmButtonColor: '#00A9D1'
-                        });
-                    }
-                } catch (error) {
-                    console.error('Login error:', error);
-                    await Swal.fire({
-                        icon: 'error',
-                        title: 'Koneksi Bermasalah!',
-                        text: 'Tidak dapat terhubung ke server. Periksa koneksi internet Anda.',
-                        confirmButtonText: 'OK',
-                        confirmButtonColor: '#00A9D1'
-                    });
-                } finally {
-                    setLoading(false);
-                }
-            });
 
             // Display validation errors if any
             @if($errors->any())
