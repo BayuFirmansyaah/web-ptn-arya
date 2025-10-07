@@ -39,7 +39,7 @@ class DatabaseSeeder extends Seeder
             User::create([
                 'name' => $item['username'],
                 'email' => $item['username'] . '@custom.local',
-                'password' => Hash::make('admin12345'),
+                'password' => Hash::make($item['password']),
                 'role' => $item['role'] ?? 'admin',
             ]);
         }
